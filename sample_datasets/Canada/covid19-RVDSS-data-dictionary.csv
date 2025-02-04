@@ -1,0 +1,16 @@
+Column Header,Variable Name,Description
+pruid,Provincial ID,"Identification number assigned to a jurisdiction (province, territory, Canada)"
+prname,Province name (English),"English name of jurisdiction (province, territory, Canada)"
+reporting_year,Reporting year,Year of report
+reporting_week,Epidemiological week,Epidemiological week of report
+date,Report date,Date of report
+update,Report update,Indicates if the jurisdiction provided an update that day  (1=yes 0=no)
+numtests_weekly,Number of new tests weekly,Total number of tests reported in each epidemiological week in a jurisdiction. 
+percentpositivity_weekly,Weekly percent positivity,"The number of positive tests reported during the epidemiological week ending before the report date, divided by the total number of tests administered during the epidemiological week ending before the report date in a jurisdiction"
+,,
+Notes:,,
+,,
+1) This information is based on data submitted to RVDSS from our provincial and territorial lab partners. ,,
+2) Canada metrics include only jurisdictions that have submitted complete data for the epidemiological week before the report date,,
+"3) Metrics should be interpreted with caution as they are subject to data corrections or backfill (sometimes described as ""bulk"" reporting) from jurisdictions.",,
+"4) These data are updated every Friday, at 9:00 am EST.",,
