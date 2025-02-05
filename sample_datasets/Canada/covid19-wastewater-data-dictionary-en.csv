@@ -1,0 +1,9 @@
+variable,description
+fractionid,"Part of the wastewater sample being tested, either solid, liquid or mixed (both solid and liquid)."
+region,City or region of the city from where wastewater sample was collected.
+pruid,Unique province or territory identifier.
+Location,City and wastewater treatment plant location.
+measureID,Detection of N1 or N2 Gene of SARS-CoV-2 using RT-qPCR.
+LatestTrend,"Describes if the trend over the past 5 weeks is showing an increase, a warning (possible increase), a decrease or no change."
+seven_day_rolling_avg,Current 7 day-rolling average of the viral load (copies/mL) in the wastewater.
+viral_load,Amount of SARS-CoV-2 genetic material present in a sample of wastewater.
