@@ -1,0 +1,1847 @@
+[ {
+  "id" : 584764900,
+  "name" : "YearStart",
+  "dataTypeName" : "number",
+  "description" : "Starting year",
+  "fieldName" : "yearstart",
+  "position" : 1,
+  "renderTypeName" : "number",
+  "tableColumnId" : 149871628,
+  "width" : 101,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "2022",
+    "null" : "0",
+    "top" : [ {
+      "item" : "2019",
+      "count" : "88823"
+    }, {
+      "item" : "2021",
+      "count" : "87600"
+    }, {
+      "item" : "2020",
+      "count" : "67999"
+    }, {
+      "item" : "2022",
+      "count" : "44595"
+    }, {
+      "item" : "2016",
+      "count" : "8760"
+    }, {
+      "item" : "2015",
+      "count" : "8760"
+    }, {
+      "item" : "2018",
+      "count" : "2678"
+    } ],
+    "smallest" : "2015",
+    "count" : "309215",
+    "cardinality" : "7"
+  },
+  "format" : {
+    "decimalSeparator" : ".",
+    "noCommas" : "true",
+    "groupSeparator" : ","
+  }
+}, {
+  "id" : 584764872,
+  "name" : "YearEnd",
+  "dataTypeName" : "number",
+  "description" : "Ending year",
+  "fieldName" : "yearend",
+  "position" : 2,
+  "renderTypeName" : "number",
+  "tableColumnId" : 149871600,
+  "width" : 108,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "2022",
+    "null" : "0",
+    "top" : [ {
+      "item" : "2019",
+      "count" : "95256"
+    }, {
+      "item" : "2021",
+      "count" : "85379"
+    }, {
+      "item" : "2020",
+      "count" : "79031"
+    }, {
+      "item" : "2022",
+      "count" : "49549"
+    } ],
+    "smallest" : "2019",
+    "count" : "309215",
+    "cardinality" : "4"
+  },
+  "format" : {
+    "decimalSeparator" : ".",
+    "noCommas" : "true",
+    "groupSeparator" : ","
+  }
+}, {
+  "id" : 584764878,
+  "name" : "LocationAbbr",
+  "dataTypeName" : "text",
+  "description" : "Location abbreviation",
+  "fieldName" : "locationabbr",
+  "position" : 3,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871606,
+  "width" : 80,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "WY",
+    "null" : "0",
+    "top" : [ {
+      "item" : "US",
+      "count" : "5763"
+    }, {
+      "item" : "TN",
+      "count" : "5750"
+    }, {
+      "item" : "AR",
+      "count" : "5748"
+    }, {
+      "item" : "CO",
+      "count" : "5748"
+    }, {
+      "item" : "CT",
+      "count" : "5748"
+    }, {
+      "item" : "DC",
+      "count" : "5748"
+    }, {
+      "item" : "DE",
+      "count" : "5748"
+    }, {
+      "item" : "HI",
+      "count" : "5748"
+    }, {
+      "item" : "AL",
+      "count" : "5748"
+    }, {
+      "item" : "GA",
+      "count" : "5748"
+    }, {
+      "item" : "IL",
+      "count" : "5748"
+    }, {
+      "item" : "KS",
+      "count" : "5748"
+    }, {
+      "item" : "LA",
+      "count" : "5748"
+    }, {
+      "item" : "MA",
+      "count" : "5748"
+    }, {
+      "item" : "ME",
+      "count" : "5748"
+    }, {
+      "item" : "MI",
+      "count" : "5748"
+    }, {
+      "item" : "MN",
+      "count" : "5748"
+    }, {
+      "item" : "MO",
+      "count" : "5748"
+    }, {
+      "item" : "MS",
+      "count" : "5748"
+    }, {
+      "item" : "ND",
+      "count" : "5748"
+    } ],
+    "smallest" : "AK",
+    "count" : "309215",
+    "cardinality" : "55"
+  },
+  "format" : { }
+}, {
+  "id" : 584764875,
+  "name" : "LocationDesc",
+  "dataTypeName" : "text",
+  "description" : "Location description",
+  "fieldName" : "locationdesc",
+  "position" : 4,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871603,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "Wyoming",
+    "null" : "0",
+    "top" : [ {
+      "item" : "United States",
+      "count" : "5763"
+    }, {
+      "item" : "Tennessee",
+      "count" : "5750"
+    }, {
+      "item" : "Hawaii",
+      "count" : "5748"
+    }, {
+      "item" : "Arkansas",
+      "count" : "5748"
+    }, {
+      "item" : "District of Columbia",
+      "count" : "5748"
+    }, {
+      "item" : "Georgia",
+      "count" : "5748"
+    }, {
+      "item" : "Alabama",
+      "count" : "5748"
+    }, {
+      "item" : "Illinois",
+      "count" : "5748"
+    }, {
+      "item" : "Kansas",
+      "count" : "5748"
+    }, {
+      "item" : "Louisiana",
+      "count" : "5748"
+    }, {
+      "item" : "Maine",
+      "count" : "5748"
+    }, {
+      "item" : "Massachusetts",
+      "count" : "5748"
+    }, {
+      "item" : "Michigan",
+      "count" : "5748"
+    }, {
+      "item" : "Minnesota",
+      "count" : "5748"
+    }, {
+      "item" : "Mississippi",
+      "count" : "5748"
+    }, {
+      "item" : "Missouri",
+      "count" : "5748"
+    }, {
+      "item" : "Nebraska",
+      "count" : "5748"
+    }, {
+      "item" : "New Jersey",
+      "count" : "5748"
+    }, {
+      "item" : "New York",
+      "count" : "5748"
+    }, {
+      "item" : "North Dakota",
+      "count" : "5748"
+    } ],
+    "smallest" : "Alabama",
+    "count" : "309215",
+    "cardinality" : "55"
+  },
+  "format" : { }
+}, {
+  "id" : 584764898,
+  "name" : "DataSource",
+  "dataTypeName" : "text",
+  "description" : "Data source abbreviation",
+  "fieldName" : "datasource",
+  "position" : 5,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871626,
+  "width" : 101,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "YRBSS",
+    "null" : "0",
+    "top" : [ {
+      "item" : "BRFSS",
+      "count" : "195594"
+    }, {
+      "item" : "NVSS",
+      "count" : "50232"
+    }, {
+      "item" : "YRBSS",
+      "count" : "17710"
+    }, {
+      "item" : "US Cancer DVT",
+      "count" : "17520"
+    }, {
+      "item" : "CMS Part A Claims Data",
+      "count" : "11232"
+    }, {
+      "item" : "PRAMS",
+      "count" : "7182"
+    }, {
+      "item" : "NSCH",
+      "count" : "5356"
+    }, {
+      "item" : "ACS",
+      "count" : "3224"
+    }, {
+      "item" : "WIC Participant and Program Characteristics",
+      "count" : "432"
+    }, {
+      "item" : "NIS",
+      "count" : "244"
+    }, {
+      "item" : "ANRF",
+      "count" : "165"
+    }, {
+      "item" : "AEDS",
+      "count" : "165"
+    }, {
+      "item" : "USRDS",
+      "count" : "104"
+    }, {
+      "item" : "Current Population Survey - FSS",
+      "count" : "55"
+    } ],
+    "smallest" : "ACS",
+    "count" : "309215",
+    "cardinality" : "14"
+  },
+  "format" : { }
+}, {
+  "id" : 584764904,
+  "name" : "Topic",
+  "dataTypeName" : "text",
+  "description" : "Topic",
+  "fieldName" : "topic",
+  "position" : 6,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871632,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "Tobacco",
+    "null" : "0",
+    "top" : [ {
+      "item" : "Cardiovascular Disease",
+      "count" : "30709"
+    }, {
+      "item" : "Chronic Obstructive Pulmonary Disease",
+      "count" : "26951"
+    }, {
+      "item" : "Nutrition, Physical Activity, and Weight Status",
+      "count" : "26069"
+    }, {
+      "item" : "Health Status",
+      "count" : "25612"
+    }, {
+      "item" : "Alcohol",
+      "count" : "25321"
+    }, {
+      "item" : "Cancer",
+      "count" : "22358"
+    }, {
+      "item" : "Immunization",
+      "count" : "19140"
+    }, {
+      "item" : "Social Determinants of Health",
+      "count" : "19026"
+    }, {
+      "item" : "Arthritis",
+      "count" : "18645"
+    }, {
+      "item" : "Diabetes",
+      "count" : "17318"
+    }, {
+      "item" : "Mental Health",
+      "count" : "16976"
+    }, {
+      "item" : "Tobacco",
+      "count" : "15931"
+    }, {
+      "item" : "Oral Health",
+      "count" : "13236"
+    }, {
+      "item" : "Asthma",
+      "count" : "10511"
+    }, {
+      "item" : "Cognitive Health and Caregiving",
+      "count" : "9904"
+    }, {
+      "item" : "Sleep",
+      "count" : "5318"
+    }, {
+      "item" : "Disability",
+      "count" : "5060"
+    }, {
+      "item" : "Maternal Health",
+      "count" : "1026"
+    }, {
+      "item" : "Chronic Kidney Disease",
+      "count" : "104"
+    } ],
+    "smallest" : "Alcohol",
+    "count" : "309215",
+    "cardinality" : "19"
+  },
+  "format" : { }
+}, {
+  "id" : 584764873,
+  "name" : "Question",
+  "dataTypeName" : "text",
+  "description" : "Question full-length text",
+  "fieldName" : "question",
+  "position" : 7,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871601,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "Work limitation due to arthritis among adults aged 18-64 years with arthritis",
+    "null" : "0",
+    "top" : [ {
+      "item" : "Binge drinking frequency among adults who binge drink",
+      "count" : "5720"
+    }, {
+      "item" : "Binge drinking intensity among adults who binge drink",
+      "count" : "5680"
+    }, {
+      "item" : "Cerebrovascular disease (stroke) mortality among all people, underlying cause",
+      "count" : "5616"
+    }, {
+      "item" : "Chronic liver disease mortality among all people, underlying cause",
+      "count" : "5616"
+    }, {
+      "item" : "Asthma mortality among all people, underlying cause",
+      "count" : "5616"
+    }, {
+      "item" : "Diseases of the heart mortality among all people, underlying cause",
+      "count" : "5616"
+    }, {
+      "item" : "Diabetic ketoacidosis mortality among all people, underlying or contributing cause",
+      "count" : "5616"
+    }, {
+      "item" : "Diabetes mortality among all people, underlying or contributing cause",
+      "count" : "5616"
+    }, {
+      "item" : "Coronary heart disease mortality among all people, underlying cause",
+      "count" : "5616"
+    }, {
+      "item" : "Chronic obstructive pulmonary disease mortality among adults aged 45 years and older, underlying or contributing cause",
+      "count" : "5304"
+    }, {
+      "item" : "Chronic obstructive pulmonary disease mortality among adults aged 45 years and older, underlying cause",
+      "count" : "5304"
+    }, {
+      "item" : "Frequent mental distress among adults",
+      "count" : "5060"
+    }, {
+      "item" : "Average mentally unhealthy days among adults",
+      "count" : "5060"
+    }, {
+      "item" : "Average recent physically unhealthy days among adults",
+      "count" : "5060"
+    }, {
+      "item" : "Binge drinking prevalence among adults",
+      "count" : "5060"
+    }, {
+      "item" : "2 or more chronic conditions among adults",
+      "count" : "5060"
+    }, {
+      "item" : "Routine checkup within the past year among adults",
+      "count" : "5060"
+    }, {
+      "item" : "Recent activity limitation among adults",
+      "count" : "5060"
+    }, {
+      "item" : "Chronic obstructive pulmonary disease among adults",
+      "count" : "5060"
+    }, {
+      "item" : "Adults with any disability",
+      "count" : "5060"
+    } ],
+    "smallest" : "2 or more chronic conditions among adults",
+    "count" : "309215",
+    "cardinality" : "109"
+  },
+  "format" : { }
+}, {
+  "id" : 584764866,
+  "name" : "Response",
+  "dataTypeName" : "text",
+  "description" : "Response",
+  "fieldName" : "response",
+  "position" : 8,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871594,
+  "cachedContents" : {
+    "non_null" : "0",
+    "null" : "309215",
+    "count" : "309215",
+    "cardinality" : "0"
+  },
+  "format" : { }
+}, {
+  "id" : 584764886,
+  "name" : "DataValueUnit",
+  "dataTypeName" : "text",
+  "description" : "The unit, such as $, %, years, etc.",
+  "fieldName" : "datavalueunit",
+  "position" : 9,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871614,
+  "width" : 132,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "Years",
+    "null" : "0",
+    "top" : [ {
+      "item" : "%",
+      "count" : "203382"
+    }, {
+      "item" : "Number",
+      "count" : "54104"
+    }, {
+      "item" : "cases per 100,000",
+      "count" : "31980"
+    }, {
+      "item" : "per 100,000",
+      "count" : "11680"
+    }, {
+      "item" : "cases per 1,000",
+      "count" : "7488"
+    }, {
+      "item" : "Years",
+      "count" : "312"
+    }, {
+      "item" : "gallons",
+      "count" : "165"
+    }, {
+      "item" : "cases per 1,000,000",
+      "count" : "104"
+    } ],
+    "smallest" : "%",
+    "count" : "309215",
+    "cardinality" : "8"
+  },
+  "format" : { }
+}, {
+  "id" : 584764892,
+  "name" : "DataValueType",
+  "dataTypeName" : "text",
+  "description" : "The data type, such as prevalence or mean.",
+  "fieldName" : "datavaluetype",
+  "position" : 10,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871620,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "Proportion",
+    "null" : "0",
+    "top" : [ {
+      "item" : "Crude Prevalence",
+      "count" : "128198"
+    }, {
+      "item" : "Age-adjusted Prevalence",
+      "count" : "75019"
+    }, {
+      "item" : "Number",
+      "count" : "27888"
+    }, {
+      "item" : "Crude Rate",
+      "count" : "27524"
+    }, {
+      "item" : "Age-adjusted Rate",
+      "count" : "23624"
+    }, {
+      "item" : "Crude Mean",
+      "count" : "8580"
+    }, {
+      "item" : "Age-adjusted Mean",
+      "count" : "6600"
+    }, {
+      "item" : "Crude Median",
+      "count" : "5720"
+    }, {
+      "item" : "Crude 75th percentile",
+      "count" : "5680"
+    }, {
+      "item" : "Proportion",
+      "count" : "165"
+    }, {
+      "item" : "Per capita alcohol consumption gallons",
+      "count" : "165"
+    }, {
+      "item" : "Adjusted rate by age, sex, race and ethnicity",
+      "count" : "52"
+    } ],
+    "smallest" : "Adjusted rate by age, sex, race and ethnicity",
+    "count" : "309215",
+    "cardinality" : "12"
+  },
+  "format" : { }
+}, {
+  "id" : 584764888,
+  "name" : "DataValue",
+  "dataTypeName" : "number",
+  "description" : "Data Value, such as 14.7 or Category 1.",
+  "fieldName" : "datavalue",
+  "position" : 11,
+  "renderTypeName" : "number",
+  "tableColumnId" : 149871616,
+  "width" : 138,
+  "cachedContents" : {
+    "non_null" : "209196",
+    "largest" : "2925456",
+    "null" : "100019",
+    "top" : [ {
+      "item" : "3",
+      "count" : "701"
+    }, {
+      "item" : "2.8",
+      "count" : "668"
+    }, {
+      "item" : "3.1",
+      "count" : "642"
+    }, {
+      "item" : "4",
+      "count" : "636"
+    }, {
+      "item" : "2.6",
+      "count" : "634"
+    }, {
+      "item" : "2.9",
+      "count" : "630"
+    }, {
+      "item" : "3.3",
+      "count" : "621"
+    }, {
+      "item" : "2.7",
+      "count" : "599"
+    }, {
+      "item" : "3.2",
+      "count" : "597"
+    }, {
+      "item" : "3.5",
+      "count" : "589"
+    }, {
+      "item" : "3.9",
+      "count" : "582"
+    }, {
+      "item" : "3.6",
+      "count" : "572"
+    }, {
+      "item" : "1.8",
+      "count" : "558"
+    }, {
+      "item" : "3.4",
+      "count" : "554"
+    }, {
+      "item" : "3.7",
+      "count" : "554"
+    }, {
+      "item" : "3.8",
+      "count" : "551"
+    }, {
+      "item" : "1.9",
+      "count" : "550"
+    }, {
+      "item" : "4.1",
+      "count" : "548"
+    }, {
+      "item" : "2.4",
+      "count" : "548"
+    }, {
+      "item" : "2.5",
+      "count" : "547"
+    } ],
+    "smallest" : "0",
+    "count" : "309215",
+    "cardinality" : "14852"
+  },
+  "format" : {
+    "decimalSeparator" : ".",
+    "groupSeparator" : ","
+  }
+}, {
+  "id" : 584764874,
+  "name" : "DataValueAlt",
+  "dataTypeName" : "number",
+  "description" : "Equal to Data Value, but formatting is numeric.",
+  "fieldName" : "datavaluealt",
+  "position" : 12,
+  "renderTypeName" : "number",
+  "tableColumnId" : 149871602,
+  "width" : 101,
+  "cachedContents" : {
+    "non_null" : "209196",
+    "largest" : "2925456",
+    "null" : "100019",
+    "top" : [ {
+      "item" : "3",
+      "count" : "701"
+    }, {
+      "item" : "2.8",
+      "count" : "668"
+    }, {
+      "item" : "3.1",
+      "count" : "642"
+    }, {
+      "item" : "4",
+      "count" : "636"
+    }, {
+      "item" : "2.6",
+      "count" : "634"
+    }, {
+      "item" : "2.9",
+      "count" : "630"
+    }, {
+      "item" : "3.3",
+      "count" : "621"
+    }, {
+      "item" : "2.7",
+      "count" : "599"
+    }, {
+      "item" : "3.2",
+      "count" : "597"
+    }, {
+      "item" : "3.5",
+      "count" : "589"
+    }, {
+      "item" : "3.9",
+      "count" : "582"
+    }, {
+      "item" : "3.6",
+      "count" : "572"
+    }, {
+      "item" : "1.8",
+      "count" : "558"
+    }, {
+      "item" : "3.4",
+      "count" : "554"
+    }, {
+      "item" : "3.7",
+      "count" : "554"
+    }, {
+      "item" : "3.8",
+      "count" : "551"
+    }, {
+      "item" : "1.9",
+      "count" : "550"
+    }, {
+      "item" : "4.1",
+      "count" : "548"
+    }, {
+      "item" : "2.4",
+      "count" : "548"
+    }, {
+      "item" : "2.5",
+      "count" : "547"
+    } ],
+    "smallest" : "0",
+    "count" : "309215",
+    "cardinality" : "14852"
+  },
+  "format" : {
+    "decimalSeparator" : ".",
+    "groupSeparator" : ","
+  }
+}, {
+  "id" : 584764911,
+  "name" : "DataValueFootnoteSymbol",
+  "dataTypeName" : "text",
+  "description" : "Footnote symbol",
+  "fieldName" : "datavaluefootnotesymbol",
+  "position" : 13,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871639,
+  "width" : 171,
+  "cachedContents" : {
+    "non_null" : "101716",
+    "largest" : "###",
+    "null" : "207499",
+    "top" : [ {
+      "item" : "****",
+      "count" : "52652"
+    }, {
+      "item" : "~",
+      "count" : "28763"
+    }, {
+      "item" : "*",
+      "count" : "12833"
+    }, {
+      "item" : "#",
+      "count" : "5738"
+    }, {
+      "item" : "###",
+      "count" : "937"
+    }, {
+      "item" : "&",
+      "count" : "535"
+    }, {
+      "item" : "##",
+      "count" : "126"
+    }, {
+      "item" : "~~~~",
+      "count" : "84"
+    }, {
+      "item" : "~~",
+      "count" : "48"
+    } ],
+    "smallest" : "~",
+    "count" : "309215",
+    "cardinality" : "9"
+  },
+  "format" : { }
+}, {
+  "id" : 584764871,
+  "name" : "DataValueFootnote",
+  "dataTypeName" : "text",
+  "description" : "Footnote text",
+  "fieldName" : "datavaluefootnote",
+  "position" : 14,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871599,
+  "cachedContents" : {
+    "non_null" : "101716",
+    "largest" : "The state registry opted not to present state-specific estimates for this race/ethnicity group",
+    "null" : "207499",
+    "top" : [ {
+      "item" : "Data suppressed; denominator < 50 or relative standard error > 30%",
+      "count" : "52652"
+    }, {
+      "item" : "Data suppressed; too few respondents or cases",
+      "count" : "28763"
+    }, {
+      "item" : "No data available",
+      "count" : "12833"
+    }, {
+      "item" : "No data available for this indicator because the module was not used by the state or territory",
+      "count" : "5738"
+    }, {
+      "item" : "Interpret with caution: 95% confidence interval width is greater than 20 percentage points or 1.2 times the estimate",
+      "count" : "937"
+    }, {
+      "item" : "Interpret with caution; less than 60 respondents",
+      "count" : "535"
+    }, {
+      "item" : "Estimate is 0.0% because no cases were reported with this condition",
+      "count" : "126"
+    }, {
+      "item" : "The state registry opted not to present state-specific estimates for this race/ethnicity group",
+      "count" : "84"
+    }, {
+      "item" : "Data cannot be calculated",
+      "count" : "48"
+    } ],
+    "smallest" : "Data cannot be calculated",
+    "count" : "309215",
+    "cardinality" : "9"
+  },
+  "format" : { }
+}, {
+  "id" : 584764880,
+  "name" : "LowConfidenceLimit",
+  "dataTypeName" : "number",
+  "description" : "Low confidence limit",
+  "fieldName" : "lowconfidencelimit",
+  "position" : 15,
+  "renderTypeName" : "number",
+  "tableColumnId" : 149871608,
+  "width" : 120,
+  "cachedContents" : {
+    "non_null" : "188885",
+    "largest" : "1427",
+    "null" : "120330",
+    "top" : [ {
+      "item" : "2.4",
+      "count" : "845"
+    }, {
+      "item" : "2.3",
+      "count" : "761"
+    }, {
+      "item" : "2.2",
+      "count" : "755"
+    }, {
+      "item" : "2.7",
+      "count" : "749"
+    }, {
+      "item" : "2.5",
+      "count" : "747"
+    }, {
+      "item" : "2.8",
+      "count" : "734"
+    }, {
+      "item" : "2.6",
+      "count" : "730"
+    }, {
+      "item" : "2.9",
+      "count" : "718"
+    }, {
+      "item" : "3",
+      "count" : "707"
+    }, {
+      "item" : "2",
+      "count" : "701"
+    }, {
+      "item" : "1.7",
+      "count" : "699"
+    }, {
+      "item" : "1.6",
+      "count" : "684"
+    }, {
+      "item" : "1.9",
+      "count" : "683"
+    }, {
+      "item" : "1.8",
+      "count" : "679"
+    }, {
+      "item" : "3.2",
+      "count" : "657"
+    }, {
+      "item" : "2.1",
+      "count" : "651"
+    }, {
+      "item" : "1.5",
+      "count" : "622"
+    }, {
+      "item" : "3.5",
+      "count" : "607"
+    }, {
+      "item" : "3.1",
+      "count" : "607"
+    }, {
+      "item" : "3.4",
+      "count" : "604"
+    } ],
+    "smallest" : "0",
+    "count" : "309215",
+    "cardinality" : "8412"
+  },
+  "format" : {
+    "decimalSeparator" : ".",
+    "groupSeparator" : ","
+  }
+}, {
+  "id" : 584764868,
+  "name" : "HighConfidenceLimit",
+  "dataTypeName" : "number",
+  "description" : "High confidence limit",
+  "fieldName" : "highconfidencelimit",
+  "position" : 16,
+  "renderTypeName" : "number",
+  "tableColumnId" : 149871596,
+  "width" : 127,
+  "cachedContents" : {
+    "non_null" : "188890",
+    "largest" : "1485.9",
+    "null" : "120325",
+    "top" : [ {
+      "item" : "3.4",
+      "count" : "567"
+    }, {
+      "item" : "3",
+      "count" : "566"
+    }, {
+      "item" : "3.6",
+      "count" : "525"
+    }, {
+      "item" : "4.9",
+      "count" : "524"
+    }, {
+      "item" : "3.9",
+      "count" : "522"
+    }, {
+      "item" : "4.5",
+      "count" : "502"
+    }, {
+      "item" : "2.9",
+      "count" : "501"
+    }, {
+      "item" : "3.2",
+      "count" : "499"
+    }, {
+      "item" : "4.6",
+      "count" : "494"
+    }, {
+      "item" : "4.4",
+      "count" : "493"
+    }, {
+      "item" : "3.8",
+      "count" : "492"
+    }, {
+      "item" : "3.5",
+      "count" : "490"
+    }, {
+      "item" : "3.1",
+      "count" : "486"
+    }, {
+      "item" : "2.8",
+      "count" : "485"
+    }, {
+      "item" : "3.3",
+      "count" : "485"
+    }, {
+      "item" : "4.7",
+      "count" : "481"
+    }, {
+      "item" : "4.2",
+      "count" : "474"
+    }, {
+      "item" : "4.1",
+      "count" : "468"
+    }, {
+      "item" : "4.3",
+      "count" : "467"
+    }, {
+      "item" : "3.7",
+      "count" : "466"
+    } ],
+    "smallest" : "0",
+    "count" : "309215",
+    "cardinality" : "8861"
+  },
+  "format" : {
+    "decimalSeparator" : ".",
+    "groupSeparator" : ","
+  }
+}, {
+  "id" : 584764884,
+  "name" : "StratificationCategory1",
+  "dataTypeName" : "text",
+  "description" : "The category of the stratification, such as Gender",
+  "fieldName" : "stratificationcategory1",
+  "position" : 17,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871612,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "Sex",
+    "null" : "0",
+    "top" : [ {
+      "item" : "Race/Ethnicity",
+      "count" : "188664"
+    }, {
+      "item" : "Sex",
+      "count" : "53818"
+    }, {
+      "item" : "Age",
+      "count" : "32472"
+    }, {
+      "item" : "Overall",
+      "count" : "29201"
+    }, {
+      "item" : "Grade",
+      "count" : "5060"
+    } ],
+    "smallest" : "Age",
+    "count" : "309215",
+    "cardinality" : "5"
+  },
+  "format" : { }
+}, {
+  "id" : 584764877,
+  "name" : "Stratification1",
+  "dataTypeName" : "text",
+  "description" : "The stratification within the category, such as Male or Female",
+  "fieldName" : "stratification1",
+  "position" : 18,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871605,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "White, non-Hispanic",
+    "null" : "0",
+    "top" : [ {
+      "item" : "Overall",
+      "count" : "29201"
+    }, {
+      "item" : "Black, non-Hispanic",
+      "count" : "28000"
+    }, {
+      "item" : "White, non-Hispanic",
+      "count" : "28000"
+    }, {
+      "item" : "Hispanic",
+      "count" : "28000"
+    }, {
+      "item" : "American Indian or Alaska Native, non-Hispanic",
+      "count" : "27980"
+    }, {
+      "item" : "Male",
+      "count" : "26909"
+    }, {
+      "item" : "Female",
+      "count" : "26909"
+    }, {
+      "item" : "Hawaiian or Pacific Islander, non-Hispanic",
+      "count" : "24352"
+    }, {
+      "item" : "Asian, non-Hispanic",
+      "count" : "24352"
+    }, {
+      "item" : "Multiracial, non-Hispanic",
+      "count" : "24332"
+    }, {
+      "item" : "Age 45-64",
+      "count" : "11167"
+    }, {
+      "item" : "Age >=65",
+      "count" : "9902"
+    }, {
+      "item" : "Age 18-44",
+      "count" : "8143"
+    }, {
+      "item" : "Asian or Pacific Islander, non-Hispanic",
+      "count" : "3648"
+    }, {
+      "item" : "Age 0-44",
+      "count" : "2184"
+    }, {
+      "item" : "Grade 11",
+      "count" : "1265"
+    }, {
+      "item" : "Grade 12",
+      "count" : "1265"
+    }, {
+      "item" : "Grade 9",
+      "count" : "1265"
+    }, {
+      "item" : "Grade 10",
+      "count" : "1265"
+    }, {
+      "item" : "Age 12-17",
+      "count" : "220"
+    } ],
+    "smallest" : "Age 0-44",
+    "count" : "309215",
+    "cardinality" : "26"
+  },
+  "format" : { }
+}, {
+  "id" : 584764879,
+  "name" : "StratificationCategory2",
+  "dataTypeName" : "text",
+  "description" : "The category of the stratification, such as Gender",
+  "fieldName" : "stratificationcategory2",
+  "position" : 19,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871607,
+  "width" : 115,
+  "cachedContents" : {
+    "non_null" : "0",
+    "null" : "309215",
+    "count" : "309215",
+    "cardinality" : "0"
+  },
+  "format" : { }
+}, {
+  "id" : 584764896,
+  "name" : "Stratification2",
+  "dataTypeName" : "text",
+  "description" : "The stratification within the category, such as Male or Female",
+  "fieldName" : "stratification2",
+  "position" : 20,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871624,
+  "width" : 123,
+  "cachedContents" : {
+    "non_null" : "0",
+    "null" : "309215",
+    "count" : "309215",
+    "cardinality" : "0"
+  },
+  "format" : { }
+}, {
+  "id" : 584764863,
+  "name" : "StratificationCategory3",
+  "dataTypeName" : "text",
+  "description" : "The category of the stratification, such as Gender",
+  "fieldName" : "stratificationcategory3",
+  "position" : 21,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871591,
+  "width" : 101,
+  "cachedContents" : {
+    "non_null" : "0",
+    "null" : "309215",
+    "count" : "309215",
+    "cardinality" : "0"
+  },
+  "format" : { }
+}, {
+  "id" : 584764910,
+  "name" : "Stratification3",
+  "dataTypeName" : "text",
+  "description" : "The stratification within the category, such as Male or Female",
+  "fieldName" : "stratification3",
+  "position" : 22,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871638,
+  "width" : 145,
+  "cachedContents" : {
+    "non_null" : "0",
+    "null" : "309215",
+    "count" : "309215",
+    "cardinality" : "0"
+  },
+  "format" : { }
+}, {
+  "id" : 584764881,
+  "name" : "Geolocation",
+  "dataTypeName" : "point",
+  "description" : "Geolocation code for mapping",
+  "fieldName" : "geolocation",
+  "position" : 25,
+  "renderTypeName" : "point",
+  "tableColumnId" : 149871609,
+  "cachedContents" : {
+    "non_null" : "303452",
+    "null" : "5763",
+    "top" : [ {
+      "item" : {
+        "coordinates" : [ -85.77449091399967, 35.68094058000048 ],
+        "type" : "Point"
+      },
+      "count" : "5750"
+    }, {
+      "item" : {
+        "coordinates" : [ -78.45789046299967, 37.54268067400045 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -72.51764079099962, 43.62538123900049 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -72.08269067499964, 42.27687047000046 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -106.13361092099967, 38.843840757000464 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -89.53803082499968, 32.745510099000455 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -74.27369128799967, 40.13057004800049 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -75.57774116799965, 39.008830667000495 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -92.56630005299968, 38.635790776000476 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -86.63186076199969, 32.84057112200048 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -100.11842104899966, 47.47531977900047 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -98.20078122699965, 38.34774030000045 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -72.64984095199964, 41.56266102000046 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -157.85774940299973, 21.304850435000446 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -77.036871, 38.907192 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -75.54397042699964, 42.82700103200045 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -92.44568007099969, 31.31266064400046 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -83.62758034599966, 32.83968109300048 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -89.81637074199966, 44.39319117400049 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    }, {
+      "item" : {
+        "coordinates" : [ -84.71439026999968, 44.6613195430005 ],
+        "type" : "Point"
+      },
+      "count" : "5748"
+    } ],
+    "count" : "309215",
+    "cardinality" : "54"
+  },
+  "format" : { }
+}, {
+  "id" : 584764894,
+  "name" : "LocationID",
+  "dataTypeName" : "text",
+  "description" : "Location identifier",
+  "fieldName" : "locationid",
+  "position" : 26,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871622,
+  "width" : 118,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "78",
+    "null" : "0",
+    "top" : [ {
+      "item" : "59",
+      "count" : "5763"
+    }, {
+      "item" : "47",
+      "count" : "5750"
+    }, {
+      "item" : "01",
+      "count" : "5748"
+    }, {
+      "item" : "05",
+      "count" : "5748"
+    }, {
+      "item" : "11",
+      "count" : "5748"
+    }, {
+      "item" : "13",
+      "count" : "5748"
+    }, {
+      "item" : "15",
+      "count" : "5748"
+    }, {
+      "item" : "17",
+      "count" : "5748"
+    }, {
+      "item" : "20",
+      "count" : "5748"
+    }, {
+      "item" : "22",
+      "count" : "5748"
+    }, {
+      "item" : "23",
+      "count" : "5748"
+    }, {
+      "item" : "25",
+      "count" : "5748"
+    }, {
+      "item" : "26",
+      "count" : "5748"
+    }, {
+      "item" : "27",
+      "count" : "5748"
+    }, {
+      "item" : "28",
+      "count" : "5748"
+    }, {
+      "item" : "29",
+      "count" : "5748"
+    }, {
+      "item" : "31",
+      "count" : "5748"
+    }, {
+      "item" : "34",
+      "count" : "5748"
+    }, {
+      "item" : "36",
+      "count" : "5748"
+    }, {
+      "item" : "38",
+      "count" : "5748"
+    } ],
+    "smallest" : "01",
+    "count" : "309215",
+    "cardinality" : "55"
+  },
+  "format" : {
+    "decimalSeparator" : ".",
+    "groupSeparator" : ","
+  }
+}, {
+  "id" : 584764870,
+  "name" : "TopicID",
+  "dataTypeName" : "text",
+  "description" : "Topic identifier",
+  "fieldName" : "topicid",
+  "position" : 27,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871598,
+  "width" : 134,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "TOB",
+    "null" : "0",
+    "top" : [ {
+      "item" : "CVD",
+      "count" : "30709"
+    }, {
+      "item" : "COPD",
+      "count" : "26951"
+    }, {
+      "item" : "NPAW",
+      "count" : "26069"
+    }, {
+      "item" : "HEA",
+      "count" : "25612"
+    }, {
+      "item" : "ALC",
+      "count" : "25321"
+    }, {
+      "item" : "CAN",
+      "count" : "22358"
+    }, {
+      "item" : "IMM",
+      "count" : "19140"
+    }, {
+      "item" : "SDOH",
+      "count" : "19026"
+    }, {
+      "item" : "ART",
+      "count" : "18645"
+    }, {
+      "item" : "DIA",
+      "count" : "17318"
+    }, {
+      "item" : "MEN",
+      "count" : "16976"
+    }, {
+      "item" : "TOB",
+      "count" : "15931"
+    }, {
+      "item" : "ORH",
+      "count" : "13236"
+    }, {
+      "item" : "AST",
+      "count" : "10511"
+    }, {
+      "item" : "CHC",
+      "count" : "9904"
+    }, {
+      "item" : "SLEP",
+      "count" : "5318"
+    }, {
+      "item" : "DIS",
+      "count" : "5060"
+    }, {
+      "item" : "MAT",
+      "count" : "1026"
+    }, {
+      "item" : "CKD",
+      "count" : "104"
+    } ],
+    "smallest" : "ALC",
+    "count" : "309215",
+    "cardinality" : "19"
+  },
+  "format" : { }
+}, {
+  "id" : 584764865,
+  "name" : "QuestionID",
+  "dataTypeName" : "text",
+  "description" : "Question identifier",
+  "fieldName" : "questionid",
+  "position" : 28,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871593,
+  "width" : 125,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "TOB07",
+    "null" : "0",
+    "top" : [ {
+      "item" : "ALC04",
+      "count" : "5720"
+    }, {
+      "item" : "ALC05",
+      "count" : "5680"
+    }, {
+      "item" : "CVD08",
+      "count" : "5616"
+    }, {
+      "item" : "CVD09",
+      "count" : "5616"
+    }, {
+      "item" : "ALC09",
+      "count" : "5616"
+    }, {
+      "item" : "DIA03",
+      "count" : "5616"
+    }, {
+      "item" : "AST01",
+      "count" : "5616"
+    }, {
+      "item" : "DIA04",
+      "count" : "5616"
+    }, {
+      "item" : "CVD07",
+      "count" : "5616"
+    }, {
+      "item" : "COPD05",
+      "count" : "5304"
+    }, {
+      "item" : "COPD06",
+      "count" : "5304"
+    }, {
+      "item" : "ALC06",
+      "count" : "5060"
+    }, {
+      "item" : "COPD01",
+      "count" : "5060"
+    }, {
+      "item" : "IMM01",
+      "count" : "5060"
+    }, {
+      "item" : "SDH12",
+      "count" : "5060"
+    }, {
+      "item" : "MEN02",
+      "count" : "5060"
+    }, {
+      "item" : "HEA04",
+      "count" : "5060"
+    }, {
+      "item" : "HEA03",
+      "count" : "5060"
+    }, {
+      "item" : "HEA02",
+      "count" : "5060"
+    }, {
+      "item" : "HEA01",
+      "count" : "5060"
+    } ],
+    "smallest" : "ALC01",
+    "count" : "309215",
+    "cardinality" : "109"
+  },
+  "format" : { }
+}, {
+  "id" : 584764864,
+  "name" : "ResponseID",
+  "dataTypeName" : "text",
+  "description" : "Identifier for the response",
+  "fieldName" : "responseid",
+  "position" : 29,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871592,
+  "width" : 126,
+  "cachedContents" : {
+    "non_null" : "0",
+    "null" : "309215",
+    "count" : "309215",
+    "cardinality" : "0"
+  },
+  "format" : { }
+}, {
+  "id" : 584764876,
+  "name" : "DataValueTypeID",
+  "dataTypeName" : "text",
+  "description" : "Identifier for the data value type",
+  "fieldName" : "datavaluetypeid",
+  "position" : 30,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871604,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "PROP",
+    "null" : "0",
+    "top" : [ {
+      "item" : "CRDPREV",
+      "count" : "128198"
+    }, {
+      "item" : "AGEADJPREV",
+      "count" : "75019"
+    }, {
+      "item" : "NMBR",
+      "count" : "27888"
+    }, {
+      "item" : "CRDRATE",
+      "count" : "27524"
+    }, {
+      "item" : "AGEADJRATE",
+      "count" : "23624"
+    }, {
+      "item" : "CRDMEAN",
+      "count" : "8580"
+    }, {
+      "item" : "AGEADJMEAN",
+      "count" : "6600"
+    }, {
+      "item" : "CRDMEDN",
+      "count" : "5720"
+    }, {
+      "item" : "CRD75TH",
+      "count" : "5680"
+    }, {
+      "item" : "PERCAPALC",
+      "count" : "165"
+    }, {
+      "item" : "PROP",
+      "count" : "165"
+    }, {
+      "item" : "AGESEXRACEADJRATE",
+      "count" : "52"
+    } ],
+    "smallest" : "AGEADJMEAN",
+    "count" : "309215",
+    "cardinality" : "12"
+  },
+  "format" : { }
+}, {
+  "id" : 584764869,
+  "name" : "StratificationCategoryID1",
+  "dataTypeName" : "text",
+  "description" : "Identifier for stratification category 1",
+  "fieldName" : "stratificationcategoryid1",
+  "position" : 31,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871597,
+  "width" : 168,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "SEX",
+    "null" : "0",
+    "top" : [ {
+      "item" : "RACE",
+      "count" : "188664"
+    }, {
+      "item" : "SEX",
+      "count" : "53818"
+    }, {
+      "item" : "AGE",
+      "count" : "32472"
+    }, {
+      "item" : "OVERALL",
+      "count" : "29201"
+    }, {
+      "item" : "GRADE",
+      "count" : "5060"
+    } ],
+    "smallest" : "AGE",
+    "count" : "309215",
+    "cardinality" : "5"
+  },
+  "format" : { }
+}, {
+  "id" : 584764902,
+  "name" : "StratificationID1",
+  "dataTypeName" : "text",
+  "description" : "Identifier for stratification 1",
+  "fieldName" : "stratificationid1",
+  "position" : 32,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871630,
+  "width" : 150,
+  "cachedContents" : {
+    "non_null" : "309215",
+    "largest" : "WHT",
+    "null" : "0",
+    "top" : [ {
+      "item" : "OVR",
+      "count" : "29201"
+    }, {
+      "item" : "HIS",
+      "count" : "28000"
+    }, {
+      "item" : "BLK",
+      "count" : "28000"
+    }, {
+      "item" : "WHT",
+      "count" : "28000"
+    }, {
+      "item" : "AIAN",
+      "count" : "27980"
+    }, {
+      "item" : "SEXF",
+      "count" : "26909"
+    }, {
+      "item" : "SEXM",
+      "count" : "26909"
+    }, {
+      "item" : "ASN",
+      "count" : "24352"
+    }, {
+      "item" : "HAPI",
+      "count" : "24352"
+    }, {
+      "item" : "MRC",
+      "count" : "24332"
+    }, {
+      "item" : "AGE4564",
+      "count" : "11167"
+    }, {
+      "item" : "AGE65P",
+      "count" : "9902"
+    }, {
+      "item" : "AGE1844",
+      "count" : "8143"
+    }, {
+      "item" : "API",
+      "count" : "3648"
+    }, {
+      "item" : "AGE0_44",
+      "count" : "2184"
+    }, {
+      "item" : "GRD12",
+      "count" : "1265"
+    }, {
+      "item" : "GRD10",
+      "count" : "1265"
+    }, {
+      "item" : "GRD11",
+      "count" : "1265"
+    }, {
+      "item" : "GRD9",
+      "count" : "1265"
+    }, {
+      "item" : "AGE1_5",
+      "count" : "220"
+    } ],
+    "smallest" : "AGE0_44",
+    "count" : "309215",
+    "cardinality" : "26"
+  },
+  "format" : { }
+}, {
+  "id" : 584764867,
+  "name" : "StratificationCategoryID2",
+  "dataTypeName" : "text",
+  "description" : "Identifier for stratification category 2",
+  "fieldName" : "stratificationcategoryid2",
+  "position" : 33,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871595,
+  "width" : 130,
+  "cachedContents" : {
+    "non_null" : "0",
+    "null" : "309215",
+    "count" : "309215",
+    "cardinality" : "0"
+  },
+  "format" : { }
+}, {
+  "id" : 584764906,
+  "name" : "StratificationID2",
+  "dataTypeName" : "text",
+  "description" : "Identifier for stratification 2",
+  "fieldName" : "stratificationid2",
+  "position" : 34,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871634,
+  "width" : 125,
+  "cachedContents" : {
+    "non_null" : "0",
+    "null" : "309215",
+    "count" : "309215",
+    "cardinality" : "0"
+  },
+  "format" : { }
+}, {
+  "id" : 584764890,
+  "name" : "StratificationCategoryID3",
+  "dataTypeName" : "text",
+  "description" : "Identifier for stratification category 3 ",
+  "fieldName" : "stratificationcategoryid3",
+  "position" : 35,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871618,
+  "width" : 107,
+  "cachedContents" : {
+    "non_null" : "0",
+    "null" : "309215",
+    "count" : "309215",
+    "cardinality" : "0"
+  },
+  "format" : { }
+}, {
+  "id" : 584764908,
+  "name" : "StratificationID3",
+  "dataTypeName" : "text",
+  "description" : "Identifier for stratification 3",
+  "fieldName" : "stratificationid3",
+  "position" : 36,
+  "renderTypeName" : "text",
+  "tableColumnId" : 149871636,
+  "width" : 99,
+  "cachedContents" : {
+    "non_null" : "0",
+    "null" : "309215",
+    "count" : "309215",
+    "cardinality" : "0"
+  },
+  "format" : { }
+}, {
+  "id" : 584764913,
+  "name" : "Counties",
+  "dataTypeName" : "number",
+  "description" : "This column was automatically created in order to record in what polygon from the dataset 'Counties' (skr5-azej) the point in column 'geolocation' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+  "fieldName" : ":@computed_region_skr5_azej",
+  "position" : 37,
+  "renderTypeName" : "number",
+  "tableColumnId" : 149871641,
+  "computationStrategy" : {
+    "source_columns" : [ "geolocation" ],
+    "type" : "georegion_match_on_point",
+    "parameters" : {
+      "region" : "_skr5-azej",
+      "primary_key" : "_feature_id"
+    }
+  },
+  "format" : { }
+}, {
+  "id" : 584764915,
+  "name" : "States",
+  "dataTypeName" : "number",
+  "description" : "This column was automatically created in order to record in what polygon from the dataset 'States' (hjsp-umg2) the point in column 'geolocation' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+  "fieldName" : ":@computed_region_hjsp_umg2",
+  "position" : 38,
+  "renderTypeName" : "number",
+  "tableColumnId" : 149871643,
+  "computationStrategy" : {
+    "source_columns" : [ "geolocation" ],
+    "type" : "georegion_match_on_point",
+    "parameters" : {
+      "region" : "_hjsp-umg2",
+      "primary_key" : "_feature_id"
+    }
+  },
+  "format" : { }
+} ]
