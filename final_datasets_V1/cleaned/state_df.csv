@@ -1,154 +1,154 @@
-,Unnamed: 0,YearStart,YearEnd,LocationDesc,Topic,Question,DeathRateUnit,DeathRateType,DataValue,StratificationCategory1,Stratification1,Has2019,Range,AvgDeathRate,All_Uninsured
-0,14902,2019,2019,California,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,1.9,Age,Age 0-44,True,1,1.9,0.11
-1,15589,2019,2019,Alaska,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,307.9,Age,Age >=65,True,1,307.9,0.153
-2,15903,2019,2019,Alabama,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,434.6,Age,Age >=65,True,1,434.6,0.149
-3,16510,2019,2019,Alaska,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,72.3,Age,Age 45-64,True,1,72.3,0.153
-4,16813,2019,2019,Arizona,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,68.1,Age,Age 45-64,True,1,68.1,0.154
-5,16851,2019,2019,Alabama,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,86.0,Age,Age 45-64,True,1,86.0,0.149
-6,19305,2019,2019,California,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,510.9,Age,Age >=65,True,1,510.9,0.11
-7,20339,2019,2019,Arkansas,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,6.2,Age,Age 0-44,True,1,6.2,0.132
-8,22938,2019,2019,Alaska,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,0.0,Age,Age 0-44,True,1,0.0,0.153
-9,23037,2019,2019,Arizona,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,485.2,Age,Age >=65,True,1,485.2,0.154
-10,25021,2019,2019,Arkansas,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,162.8,Age,Age 45-64,True,1,162.8,0.132
-11,25145,2019,2019,Arizona,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.3,Age,Age 0-44,True,1,2.3,0.154
-12,25392,2019,2019,Alabama,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,4.4,Age,Age 0-44,True,1,4.4,0.149
-13,25668,2019,2019,California,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,64.2,Age,Age 45-64,True,1,64.2,0.11
-14,25785,2019,2019,Arkansas,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,733.8,Age,Age >=65,True,1,733.8,0.132
-15,28018,2019,2019,District of Columbia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,574.7,Age,Age >=65,True,1,574.7,0.045
-16,28334,2019,2019,Florida,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.8,Age,Age 0-44,True,1,2.8,0.195
-17,28743,2019,2019,Connecticut,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,1.7,Age,Age 0-44,True,1,1.7,0.083
-18,29778,2019,2019,District of Columbia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,0.0,Age,Age 0-44,True,1,0.0,0.045
-19,31816,2019,2019,Colorado,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,1.8,Age,Age 0-44,True,1,1.8,0.105
-20,31865,2019,2019,Delaware,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,0.0,Age,Age 0-44,True,1,0.0,0.097
-21,31880,2019,2019,Florida,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,549.5,Age,Age >=65,True,1,549.5,0.195
-22,31881,2019,2019,Connecticut,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,500.3,Age,Age >=65,True,1,500.3,0.083
-23,31958,2019,2019,Georgia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,72.3,Age,Age 45-64,True,1,72.3,0.189
-24,32158,2019,2019,Connecticut,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,55.8,Age,Age 45-64,True,1,55.8,0.083
-25,32523,2019,2019,Georgia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,378.7,Age,Age >=65,True,1,378.7,0.189
-26,33925,2019,2019,Delaware,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,495.5,Age,Age >=65,True,1,495.5,0.097
-27,34991,2019,2019,Colorado,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,47.9,Age,Age 45-64,True,1,47.9,0.105
-28,36326,2019,2019,Hawaii,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,0.0,Age,Age 0-44,True,1,0.0,0.058
-29,36525,2019,2019,Florida,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,78.2,Age,Age 45-64,True,1,78.2,0.195
-30,37613,2019,2019,Colorado,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,364.3,Age,Age >=65,True,1,364.3,0.105
-31,37963,2019,2019,District of Columbia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,108.2,Age,Age 45-64,True,1,108.2,0.045
-32,38285,2019,2019,Hawaii,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,374.0,Age,Age >=65,True,1,374.0,0.058
-33,38450,2019,2019,Georgia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,3.5,Age,Age 0-44,True,1,3.5,0.189
-34,39101,2019,2019,Hawaii,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,65.4,Age,Age 45-64,True,1,65.4,0.058
-35,40043,2019,2019,Delaware,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,63.1,Age,Age 45-64,True,1,63.1,0.097
-36,41584,2019,2019,Louisiana,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,110.3,Age,Age 45-64,True,1,110.3,0.13
-37,43160,2019,2019,Kentucky,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,119.2,Age,Age 45-64,True,1,119.2,0.09
-38,43466,2019,2019,Maryland,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,549.4,Age,Age >=65,True,1,549.4,0.083
-39,43544,2019,2019,Idaho,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.4,Age,Age 0-44,True,1,2.4,0.16
-40,43841,2019,2019,Indiana,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,544.4,Age,Age >=65,True,1,544.4,0.117
-41,44434,2019,2019,Illinois,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,485.7,Age,Age >=65,True,1,485.7,0.103
-42,44534,2019,2019,Indiana,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,92.0,Age,Age 45-64,True,1,92.0,0.117
-43,45237,2019,2019,Illinois,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.8,Age,Age 0-44,True,1,2.8,0.103
-44,45520,2019,2019,Kentucky,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,5.0,Age,Age 0-44,True,1,5.0,0.09
-45,45622,2019,2019,Maine,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,54.9,Age,Age 45-64,True,1,54.9,0.116
-46,47528,2019,2019,Iowa,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,3.0,Age,Age 0-44,True,1,3.0,0.07
-47,47565,2019,2019,Maryland,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.4,Age,Age 0-44,True,1,2.4,0.083
-48,48387,2019,2019,Kansas,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,3.6,Age,Age 0-44,True,1,3.6,0.132
-49,48805,2019,2019,Louisiana,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,4.5,Age,Age 0-44,True,1,4.5,0.13
-50,49443,2019,2019,Indiana,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,3.5,Age,Age 0-44,True,1,3.5,0.117
-51,49626,2019,2019,Kentucky,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,525.2,Age,Age >=65,True,1,525.2,0.09
-52,49987,2019,2019,Kansas,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,627.4,Age,Age >=65,True,1,627.4,0.132
-53,51530,2019,2019,Idaho,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,63.6,Age,Age 45-64,True,1,63.6,0.16
-54,52085,2019,2019,Maine,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,0.0,Age,Age 0-44,True,1,0.0,0.116
-55,52476,2019,2019,Iowa,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,638.2,Age,Age >=65,True,1,638.2,0.07
-56,53892,2019,2019,Maine,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,491.8,Age,Age >=65,True,1,491.8,0.116
-57,53940,2019,2019,Maryland,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,67.0,Age,Age 45-64,True,1,67.0,0.083
-58,54167,2019,2019,Illinois,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,68.1,Age,Age 45-64,True,1,68.1,0.103
-59,54377,2019,2019,Louisiana,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,501.2,Age,Age >=65,True,1,501.2,0.13
-60,54408,2019,2019,Idaho,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,432.4,Age,Age >=65,True,1,432.4,0.16
-61,54737,2019,2019,Kansas,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,86.8,Age,Age 45-64,True,1,86.8,0.132
-62,54781,2019,2019,Iowa,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,103.7,Age,Age 45-64,True,1,103.7,0.07
-63,55847,2019,2019,Missouri,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,4.8,Age,Age 0-44,True,1,4.8,0.143
-64,55975,2019,2019,Mississippi,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,137.3,Age,Age 45-64,True,1,137.3,0.195
-65,56108,2019,2019,Minnesota,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,376.5,Age,Age >=65,True,1,376.5,0.066
-66,56499,2019,2019,Massachusetts,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,49.0,Age,Age 45-64,True,1,49.0,0.044
-67,56808,2019,2019,Michigan,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,661.9,Age,Age >=65,True,1,661.9,0.083
-68,57253,2019,2019,Nebraska,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,455.1,Age,Age >=65,True,1,455.1,0.114
-69,57367,2019,2019,Massachusetts,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,411.2,Age,Age >=65,True,1,411.2,0.044
-70,57945,2019,2019,Minnesota,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.1,Age,Age 0-44,True,1,2.1,0.066
-71,59076,2019,2019,Montana,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,3.4,Age,Age 0-44,True,1,3.4,0.117
-72,59727,2019,2019,Massachusetts,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.1,Age,Age 0-44,True,1,2.1,0.044
-73,59798,2019,2019,Montana,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,497.5,Age,Age >=65,True,1,497.5,0.117
-74,59848,2019,2019,Nevada,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,86.8,Age,Age 45-64,True,1,86.8,0.157
-75,60183,2019,2019,Nebraska,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,58.1,Age,Age 45-64,True,1,58.1,0.114
-76,60293,2019,2019,Mississippi,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,565.7,Age,Age >=65,True,1,565.7,0.195
-77,60883,2019,2019,Michigan,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,3.5,Age,Age 0-44,True,1,3.5,0.083
-78,62235,2019,2019,Missouri,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,575.9,Age,Age >=65,True,1,575.9,0.143
-79,63876,2019,2019,Nevada,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,599.6,Age,Age >=65,True,1,599.6,0.157
-80,65599,2019,2019,Michigan,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,98.6,Age,Age 45-64,True,1,98.6,0.083
-81,65767,2019,2019,Nebraska,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.4,Age,Age 0-44,True,1,2.4,0.114
-82,66033,2019,2019,Minnesota,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,46.2,Age,Age 45-64,True,1,46.2,0.066
-83,66065,2019,2019,Montana,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,93.7,Age,Age 45-64,True,1,93.7,0.117
-84,66322,2019,2019,Nevada,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.5,Age,Age 0-44,True,1,2.5,0.157
-85,66660,2019,2019,Missouri,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,108.3,Age,Age 45-64,True,1,108.3,0.143
-86,67596,2019,2019,Mississippi,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,7.8,Age,Age 0-44,True,1,7.8,0.195
-87,69500,2019,2019,New York,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,779.2,Age,Age >=65,True,1,779.2,0.076
-88,69608,2019,2019,New Hampshire,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,67.4,Age,Age 45-64,True,1,67.4,0.09
-89,71169,2019,2019,North Carolina,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.7,Age,Age 0-44,True,1,2.7,0.167
-90,72046,2019,2019,Ohio,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,95.9,Age,Age 45-64,True,1,95.9,0.092
-91,73567,2019,2019,New Jersey,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,565.9,Age,Age >=65,True,1,565.9,0.112
-92,74239,2019,2019,New Hampshire,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,0.0,Age,Age 0-44,True,1,0.0,0.09
-93,74449,2019,2019,Oklahoma,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,107.8,Age,Age 45-64,True,1,107.8,0.217
-94,74825,2019,2019,Ohio,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,598.9,Age,Age >=65,True,1,598.9,0.092
-95,75032,2019,2019,North Dakota,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,81.4,Age,Age 45-64,True,1,81.4,0.087
-96,75861,2019,2019,New York,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.2,Age,Age 0-44,True,1,2.2,0.076
-97,77102,2019,2019,New Mexico,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,618.4,Age,Age >=65,True,1,618.4,0.144
-98,77123,2019,2019,North Dakota,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,541.5,Age,Age >=65,True,1,541.5,0.087
-99,77639,2019,2019,North Carolina,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,454.0,Age,Age >=65,True,1,454.0,0.167
-100,78146,2019,2019,New Mexico,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,109.3,Age,Age 45-64,True,1,109.3,0.144
-101,78576,2019,2019,New Jersey,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,58.7,Age,Age 45-64,True,1,58.7,0.112
-102,78690,2019,2019,New Jersey,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.3,Age,Age 0-44,True,1,2.3,0.112
-103,78916,2019,2019,Oklahoma,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,674.8,Age,Age >=65,True,1,674.8,0.217
-104,80785,2019,2019,North Carolina,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,80.8,Age,Age 45-64,True,1,80.8,0.167
-105,81292,2019,2019,North Dakota,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,0.0,Age,Age 0-44,True,1,0.0,0.087
-106,81619,2019,2019,Oklahoma,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,4.2,Age,Age 0-44,True,1,4.2,0.217
-107,81970,2019,2019,New Mexico,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.8,Age,Age 0-44,True,1,2.8,0.144
-108,82000,2019,2019,Ohio,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,3.5,Age,Age 0-44,True,1,3.5,0.092
-109,82056,2019,2019,New York,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,77.6,Age,Age 45-64,True,1,77.6,0.076
-110,82179,2019,2019,New Hampshire,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,445.5,Age,Age >=65,True,1,445.5,0.09
-111,83624,2019,2019,Pennsylvania,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,83.0,Age,Age 45-64,True,1,83.0,0.078
-112,84382,2019,2019,Tennessee,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,647.9,Age,Age >=65,True,1,647.9,0.149
-113,84408,2019,2019,South Carolina,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,400.4,Age,Age >=65,True,1,400.4,0.16
-114,85866,2019,2019,Rhode Island,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,723.4,Age,Age >=65,True,1,723.4,0.061
-115,86000,2019,2019,Rhode Island,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,63.6,Age,Age 45-64,True,1,63.6,0.061
-116,86915,2019,2019,Oregon,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,370.3,Age,Age >=65,True,1,370.3,0.101
-117,86978,2019,2019,South Carolina,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,89.9,Age,Age 45-64,True,1,89.9,0.16
-118,87633,2019,2019,Tennessee,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,4.1,Age,Age 0-44,True,1,4.1,0.149
-119,88701,2019,2019,South Dakota,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,4.4,Age,Age 0-44,True,1,4.4,0.138
-120,88709,2019,2019,Texas,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,3.2,Age,Age 0-44,True,1,3.2,0.245
-121,88843,2019,2019,Pennsylvania,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,3.1,Age,Age 0-44,True,1,3.1,0.078
-122,89193,2019,2019,Texas,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,82.7,Age,Age 45-64,True,1,82.7,0.245
-123,89322,2019,2019,South Dakota,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,626.8,Age,Age >=65,True,1,626.8,0.138
-124,91813,2019,2019,South Carolina,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,3.5,Age,Age 0-44,True,1,3.5,0.16
-125,91971,2019,2019,South Dakota,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,99.8,Age,Age 45-64,True,1,99.8,0.138
-126,92412,2019,2019,Rhode Island,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,0.0,Age,Age 0-44,True,1,0.0,0.061
-127,93072,2019,2019,Oregon,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,48.7,Age,Age 45-64,True,1,48.7,0.101
-128,93274,2019,2019,Tennessee,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,136.1,Age,Age 45-64,True,1,136.1,0.149
-129,93417,2019,2019,Oregon,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,1.5,Age,Age 0-44,True,1,1.5,0.101
-130,94382,2019,2019,Pennsylvania,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,580.4,Age,Age >=65,True,1,580.4,0.078
-131,94887,2019,2019,Texas,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,518.1,Age,Age >=65,True,1,518.1,0.245
-132,96577,2019,2019,West Virginia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,4.6,Age,Age 0-44,True,1,4.6,0.099
-133,96608,2019,2019,Wyoming,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,457.8,Age,Age >=65,True,1,457.8,0.167
-134,97460,2019,2019,Vermont,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,574.2,Age,Age >=65,True,1,574.2,0.07
-135,97533,2019,2019,Washington,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,60.1,Age,Age 45-64,True,1,60.1,0.094
-136,97810,2019,2019,Virginia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,3.0,Age,Age 0-44,True,1,3.0,0.112
-137,98151,2019,2019,West Virginia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,715.8,Age,Age >=65,True,1,715.8,0.099
-138,101050,2019,2019,Virginia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,429.6,Age,Age >=65,True,1,429.6,0.112
-139,101052,2019,2019,West Virginia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,122.9,Age,Age 45-64,True,1,122.9,0.099
-140,101163,2019,2019,Utah,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,42.4,Age,Age 45-64,True,1,42.4,0.122
-141,101657,2019,2019,Utah,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,364.9,Age,Age >=65,True,1,364.9,0.122
-142,101965,2019,2019,Vermont,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,0.0,Age,Age 0-44,True,1,0.0,0.07
-143,103056,2019,2019,Washington,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,1.7,Age,Age 0-44,True,1,1.7,0.094
-144,103878,2019,2019,Wyoming,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,0.0,Age,Age 0-44,True,1,0.0,0.167
-145,103909,2019,2019,Utah,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,1.2,Age,Age 0-44,True,1,1.2,0.122
-146,105021,2019,2019,Washington,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,458.9,Age,Age >=65,True,1,458.9,0.094
-147,105146,2019,2019,Virginia,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,69.8,Age,Age 45-64,True,1,69.8,0.112
-148,105774,2019,2019,Wisconsin,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,531.3,Age,Age >=65,True,1,531.3,0.082
-149,108355,2019,2019,Vermont,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,91.7,Age,Age 45-64,True,1,91.7,0.07
-150,108768,2019,2019,Wisconsin,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,76.4,Age,Age 45-64,True,1,76.4,0.082
-151,108917,2019,2019,Wyoming,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,70.1,Age,Age 45-64,True,1,70.1,0.167
-152,109331,2019,2019,Wisconsin,Cardiovascular Disease,"Coronary heart disease mortality among all people, underlying cause","cases per 100,000",Crude Rate,2.8,Age,Age 0-44,True,1,2.8,0.082
+,LocationDesc,DeathRateUnit,DeathRateType,AvgDeathRate,Stratification1,All_Uninsured
+0,California,"cases per 100,000",Crude Rate,1.9,Age 0-44,0.11
+1,Alaska,"cases per 100,000",Crude Rate,307.9,Age >=65,0.153
+2,Alabama,"cases per 100,000",Crude Rate,434.6,Age >=65,0.149
+3,Alaska,"cases per 100,000",Crude Rate,72.3,Age 45-64,0.153
+4,Arizona,"cases per 100,000",Crude Rate,68.1,Age 45-64,0.154
+5,Alabama,"cases per 100,000",Crude Rate,86.0,Age 45-64,0.149
+6,California,"cases per 100,000",Crude Rate,510.9,Age >=65,0.11
+7,Arkansas,"cases per 100,000",Crude Rate,6.2,Age 0-44,0.132
+8,Alaska,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.153
+9,Arizona,"cases per 100,000",Crude Rate,485.2,Age >=65,0.154
+10,Arkansas,"cases per 100,000",Crude Rate,162.8,Age 45-64,0.132
+11,Arizona,"cases per 100,000",Crude Rate,2.3,Age 0-44,0.154
+12,Alabama,"cases per 100,000",Crude Rate,4.4,Age 0-44,0.149
+13,California,"cases per 100,000",Crude Rate,64.2,Age 45-64,0.11
+14,Arkansas,"cases per 100,000",Crude Rate,733.8,Age >=65,0.132
+15,District of Columbia,"cases per 100,000",Crude Rate,574.7,Age >=65,0.045
+16,Florida,"cases per 100,000",Crude Rate,2.8,Age 0-44,0.195
+17,Connecticut,"cases per 100,000",Crude Rate,1.7,Age 0-44,0.083
+18,District of Columbia,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.045
+19,Colorado,"cases per 100,000",Crude Rate,1.8,Age 0-44,0.105
+20,Delaware,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.097
+21,Florida,"cases per 100,000",Crude Rate,549.5,Age >=65,0.195
+22,Connecticut,"cases per 100,000",Crude Rate,500.3,Age >=65,0.083
+23,Georgia,"cases per 100,000",Crude Rate,72.3,Age 45-64,0.189
+24,Connecticut,"cases per 100,000",Crude Rate,55.8,Age 45-64,0.083
+25,Georgia,"cases per 100,000",Crude Rate,378.7,Age >=65,0.189
+26,Delaware,"cases per 100,000",Crude Rate,495.5,Age >=65,0.097
+27,Colorado,"cases per 100,000",Crude Rate,47.9,Age 45-64,0.105
+28,Hawaii,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.058
+29,Florida,"cases per 100,000",Crude Rate,78.2,Age 45-64,0.195
+30,Colorado,"cases per 100,000",Crude Rate,364.3,Age >=65,0.105
+31,District of Columbia,"cases per 100,000",Crude Rate,108.2,Age 45-64,0.045
+32,Hawaii,"cases per 100,000",Crude Rate,374.0,Age >=65,0.058
+33,Georgia,"cases per 100,000",Crude Rate,3.5,Age 0-44,0.189
+34,Hawaii,"cases per 100,000",Crude Rate,65.4,Age 45-64,0.058
+35,Delaware,"cases per 100,000",Crude Rate,63.1,Age 45-64,0.097
+36,Louisiana,"cases per 100,000",Crude Rate,110.3,Age 45-64,0.13
+37,Kentucky,"cases per 100,000",Crude Rate,119.2,Age 45-64,0.09
+38,Maryland,"cases per 100,000",Crude Rate,549.4,Age >=65,0.083
+39,Idaho,"cases per 100,000",Crude Rate,2.4,Age 0-44,0.16
+40,Indiana,"cases per 100,000",Crude Rate,544.4,Age >=65,0.117
+41,Illinois,"cases per 100,000",Crude Rate,485.7,Age >=65,0.103
+42,Indiana,"cases per 100,000",Crude Rate,92.0,Age 45-64,0.117
+43,Illinois,"cases per 100,000",Crude Rate,2.8,Age 0-44,0.103
+44,Kentucky,"cases per 100,000",Crude Rate,5.0,Age 0-44,0.09
+45,Maine,"cases per 100,000",Crude Rate,54.9,Age 45-64,0.116
+46,Iowa,"cases per 100,000",Crude Rate,3.0,Age 0-44,0.07
+47,Maryland,"cases per 100,000",Crude Rate,2.4,Age 0-44,0.083
+48,Kansas,"cases per 100,000",Crude Rate,3.6,Age 0-44,0.132
+49,Louisiana,"cases per 100,000",Crude Rate,4.5,Age 0-44,0.13
+50,Indiana,"cases per 100,000",Crude Rate,3.5,Age 0-44,0.117
+51,Kentucky,"cases per 100,000",Crude Rate,525.2,Age >=65,0.09
+52,Kansas,"cases per 100,000",Crude Rate,627.4,Age >=65,0.132
+53,Idaho,"cases per 100,000",Crude Rate,63.6,Age 45-64,0.16
+54,Maine,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.116
+55,Iowa,"cases per 100,000",Crude Rate,638.2,Age >=65,0.07
+56,Maine,"cases per 100,000",Crude Rate,491.8,Age >=65,0.116
+57,Maryland,"cases per 100,000",Crude Rate,67.0,Age 45-64,0.083
+58,Illinois,"cases per 100,000",Crude Rate,68.1,Age 45-64,0.103
+59,Louisiana,"cases per 100,000",Crude Rate,501.2,Age >=65,0.13
+60,Idaho,"cases per 100,000",Crude Rate,432.4,Age >=65,0.16
+61,Kansas,"cases per 100,000",Crude Rate,86.8,Age 45-64,0.132
+62,Iowa,"cases per 100,000",Crude Rate,103.7,Age 45-64,0.07
+63,Missouri,"cases per 100,000",Crude Rate,4.8,Age 0-44,0.143
+64,Mississippi,"cases per 100,000",Crude Rate,137.3,Age 45-64,0.195
+65,Minnesota,"cases per 100,000",Crude Rate,376.5,Age >=65,0.066
+66,Massachusetts,"cases per 100,000",Crude Rate,49.0,Age 45-64,0.044
+67,Michigan,"cases per 100,000",Crude Rate,661.9,Age >=65,0.083
+68,Nebraska,"cases per 100,000",Crude Rate,455.1,Age >=65,0.114
+69,Massachusetts,"cases per 100,000",Crude Rate,411.2,Age >=65,0.044
+70,Minnesota,"cases per 100,000",Crude Rate,2.1,Age 0-44,0.066
+71,Montana,"cases per 100,000",Crude Rate,3.4,Age 0-44,0.117
+72,Massachusetts,"cases per 100,000",Crude Rate,2.1,Age 0-44,0.044
+73,Montana,"cases per 100,000",Crude Rate,497.5,Age >=65,0.117
+74,Nevada,"cases per 100,000",Crude Rate,86.8,Age 45-64,0.157
+75,Nebraska,"cases per 100,000",Crude Rate,58.1,Age 45-64,0.114
+76,Mississippi,"cases per 100,000",Crude Rate,565.7,Age >=65,0.195
+77,Michigan,"cases per 100,000",Crude Rate,3.5,Age 0-44,0.083
+78,Missouri,"cases per 100,000",Crude Rate,575.9,Age >=65,0.143
+79,Nevada,"cases per 100,000",Crude Rate,599.6,Age >=65,0.157
+80,Michigan,"cases per 100,000",Crude Rate,98.6,Age 45-64,0.083
+81,Nebraska,"cases per 100,000",Crude Rate,2.4,Age 0-44,0.114
+82,Minnesota,"cases per 100,000",Crude Rate,46.2,Age 45-64,0.066
+83,Montana,"cases per 100,000",Crude Rate,93.7,Age 45-64,0.117
+84,Nevada,"cases per 100,000",Crude Rate,2.5,Age 0-44,0.157
+85,Missouri,"cases per 100,000",Crude Rate,108.3,Age 45-64,0.143
+86,Mississippi,"cases per 100,000",Crude Rate,7.8,Age 0-44,0.195
+87,New York,"cases per 100,000",Crude Rate,779.2,Age >=65,0.076
+88,New Hampshire,"cases per 100,000",Crude Rate,67.4,Age 45-64,0.09
+89,North Carolina,"cases per 100,000",Crude Rate,2.7,Age 0-44,0.167
+90,Ohio,"cases per 100,000",Crude Rate,95.9,Age 45-64,0.092
+91,New Jersey,"cases per 100,000",Crude Rate,565.9,Age >=65,0.112
+92,New Hampshire,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.09
+93,Oklahoma,"cases per 100,000",Crude Rate,107.8,Age 45-64,0.217
+94,Ohio,"cases per 100,000",Crude Rate,598.9,Age >=65,0.092
+95,North Dakota,"cases per 100,000",Crude Rate,81.4,Age 45-64,0.087
+96,New York,"cases per 100,000",Crude Rate,2.2,Age 0-44,0.076
+97,New Mexico,"cases per 100,000",Crude Rate,618.4,Age >=65,0.144
+98,North Dakota,"cases per 100,000",Crude Rate,541.5,Age >=65,0.087
+99,North Carolina,"cases per 100,000",Crude Rate,454.0,Age >=65,0.167
+100,New Mexico,"cases per 100,000",Crude Rate,109.3,Age 45-64,0.144
+101,New Jersey,"cases per 100,000",Crude Rate,58.7,Age 45-64,0.112
+102,New Jersey,"cases per 100,000",Crude Rate,2.3,Age 0-44,0.112
+103,Oklahoma,"cases per 100,000",Crude Rate,674.8,Age >=65,0.217
+104,North Carolina,"cases per 100,000",Crude Rate,80.8,Age 45-64,0.167
+105,North Dakota,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.087
+106,Oklahoma,"cases per 100,000",Crude Rate,4.2,Age 0-44,0.217
+107,New Mexico,"cases per 100,000",Crude Rate,2.8,Age 0-44,0.144
+108,Ohio,"cases per 100,000",Crude Rate,3.5,Age 0-44,0.092
+109,New York,"cases per 100,000",Crude Rate,77.6,Age 45-64,0.076
+110,New Hampshire,"cases per 100,000",Crude Rate,445.5,Age >=65,0.09
+111,Pennsylvania,"cases per 100,000",Crude Rate,83.0,Age 45-64,0.078
+112,Tennessee,"cases per 100,000",Crude Rate,647.9,Age >=65,0.149
+113,South Carolina,"cases per 100,000",Crude Rate,400.4,Age >=65,0.16
+114,Rhode Island,"cases per 100,000",Crude Rate,723.4,Age >=65,0.061
+115,Rhode Island,"cases per 100,000",Crude Rate,63.6,Age 45-64,0.061
+116,Oregon,"cases per 100,000",Crude Rate,370.3,Age >=65,0.101
+117,South Carolina,"cases per 100,000",Crude Rate,89.9,Age 45-64,0.16
+118,Tennessee,"cases per 100,000",Crude Rate,4.1,Age 0-44,0.149
+119,South Dakota,"cases per 100,000",Crude Rate,4.4,Age 0-44,0.138
+120,Texas,"cases per 100,000",Crude Rate,3.2,Age 0-44,0.245
+121,Pennsylvania,"cases per 100,000",Crude Rate,3.1,Age 0-44,0.078
+122,Texas,"cases per 100,000",Crude Rate,82.7,Age 45-64,0.245
+123,South Dakota,"cases per 100,000",Crude Rate,626.8,Age >=65,0.138
+124,South Carolina,"cases per 100,000",Crude Rate,3.5,Age 0-44,0.16
+125,South Dakota,"cases per 100,000",Crude Rate,99.8,Age 45-64,0.138
+126,Rhode Island,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.061
+127,Oregon,"cases per 100,000",Crude Rate,48.7,Age 45-64,0.101
+128,Tennessee,"cases per 100,000",Crude Rate,136.1,Age 45-64,0.149
+129,Oregon,"cases per 100,000",Crude Rate,1.5,Age 0-44,0.101
+130,Pennsylvania,"cases per 100,000",Crude Rate,580.4,Age >=65,0.078
+131,Texas,"cases per 100,000",Crude Rate,518.1,Age >=65,0.245
+132,West Virginia,"cases per 100,000",Crude Rate,4.6,Age 0-44,0.099
+133,Wyoming,"cases per 100,000",Crude Rate,457.8,Age >=65,0.167
+134,Vermont,"cases per 100,000",Crude Rate,574.2,Age >=65,0.07
+135,Washington,"cases per 100,000",Crude Rate,60.1,Age 45-64,0.094
+136,Virginia,"cases per 100,000",Crude Rate,3.0,Age 0-44,0.112
+137,West Virginia,"cases per 100,000",Crude Rate,715.8,Age >=65,0.099
+138,Virginia,"cases per 100,000",Crude Rate,429.6,Age >=65,0.112
+139,West Virginia,"cases per 100,000",Crude Rate,122.9,Age 45-64,0.099
+140,Utah,"cases per 100,000",Crude Rate,42.4,Age 45-64,0.122
+141,Utah,"cases per 100,000",Crude Rate,364.9,Age >=65,0.122
+142,Vermont,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.07
+143,Washington,"cases per 100,000",Crude Rate,1.7,Age 0-44,0.094
+144,Wyoming,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.167
+145,Utah,"cases per 100,000",Crude Rate,1.2,Age 0-44,0.122
+146,Washington,"cases per 100,000",Crude Rate,458.9,Age >=65,0.094
+147,Virginia,"cases per 100,000",Crude Rate,69.8,Age 45-64,0.112
+148,Wisconsin,"cases per 100,000",Crude Rate,531.3,Age >=65,0.082
+149,Vermont,"cases per 100,000",Crude Rate,91.7,Age 45-64,0.07
+150,Wisconsin,"cases per 100,000",Crude Rate,76.4,Age 45-64,0.082
+151,Wyoming,"cases per 100,000",Crude Rate,70.1,Age 45-64,0.167
+152,Wisconsin,"cases per 100,000",Crude Rate,2.8,Age 0-44,0.082
