@@ -1,0 +1,154 @@
+LocationDesc,DeathRateUnit,DeathRateType,AvgDeathRate,Stratification1,All_Uninsured
+California,"cases per 100,000",Crude Rate,1.9,Age 0-44,0.11
+Alaska,"cases per 100,000",Crude Rate,307.9,Age >=65,0.153
+Alabama,"cases per 100,000",Crude Rate,434.6,Age >=65,0.149
+Alaska,"cases per 100,000",Crude Rate,72.3,Age 45-64,0.153
+Arizona,"cases per 100,000",Crude Rate,68.1,Age 45-64,0.154
+Alabama,"cases per 100,000",Crude Rate,86.0,Age 45-64,0.149
+California,"cases per 100,000",Crude Rate,510.9,Age >=65,0.11
+Arkansas,"cases per 100,000",Crude Rate,6.2,Age 0-44,0.132
+Alaska,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.153
+Arizona,"cases per 100,000",Crude Rate,485.2,Age >=65,0.154
+Arkansas,"cases per 100,000",Crude Rate,162.8,Age 45-64,0.132
+Arizona,"cases per 100,000",Crude Rate,2.3,Age 0-44,0.154
+Alabama,"cases per 100,000",Crude Rate,4.4,Age 0-44,0.149
+California,"cases per 100,000",Crude Rate,64.2,Age 45-64,0.11
+Arkansas,"cases per 100,000",Crude Rate,733.8,Age >=65,0.132
+District of Columbia,"cases per 100,000",Crude Rate,574.7,Age >=65,0.045
+Florida,"cases per 100,000",Crude Rate,2.8,Age 0-44,0.195
+Connecticut,"cases per 100,000",Crude Rate,1.7,Age 0-44,0.083
+District of Columbia,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.045
+Colorado,"cases per 100,000",Crude Rate,1.8,Age 0-44,0.105
+Delaware,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.097
+Florida,"cases per 100,000",Crude Rate,549.5,Age >=65,0.195
+Connecticut,"cases per 100,000",Crude Rate,500.3,Age >=65,0.083
+Georgia,"cases per 100,000",Crude Rate,72.3,Age 45-64,0.189
+Connecticut,"cases per 100,000",Crude Rate,55.8,Age 45-64,0.083
+Georgia,"cases per 100,000",Crude Rate,378.7,Age >=65,0.189
+Delaware,"cases per 100,000",Crude Rate,495.5,Age >=65,0.097
+Colorado,"cases per 100,000",Crude Rate,47.9,Age 45-64,0.105
+Hawaii,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.058
+Florida,"cases per 100,000",Crude Rate,78.2,Age 45-64,0.195
+Colorado,"cases per 100,000",Crude Rate,364.3,Age >=65,0.105
+District of Columbia,"cases per 100,000",Crude Rate,108.2,Age 45-64,0.045
+Hawaii,"cases per 100,000",Crude Rate,374.0,Age >=65,0.058
+Georgia,"cases per 100,000",Crude Rate,3.5,Age 0-44,0.189
+Hawaii,"cases per 100,000",Crude Rate,65.4,Age 45-64,0.058
+Delaware,"cases per 100,000",Crude Rate,63.1,Age 45-64,0.097
+Louisiana,"cases per 100,000",Crude Rate,110.3,Age 45-64,0.13
+Kentucky,"cases per 100,000",Crude Rate,119.2,Age 45-64,0.09
+Maryland,"cases per 100,000",Crude Rate,549.4,Age >=65,0.083
+Idaho,"cases per 100,000",Crude Rate,2.4,Age 0-44,0.16
+Indiana,"cases per 100,000",Crude Rate,544.4,Age >=65,0.117
+Illinois,"cases per 100,000",Crude Rate,485.7,Age >=65,0.103
+Indiana,"cases per 100,000",Crude Rate,92.0,Age 45-64,0.117
+Illinois,"cases per 100,000",Crude Rate,2.8,Age 0-44,0.103
+Kentucky,"cases per 100,000",Crude Rate,5.0,Age 0-44,0.09
+Maine,"cases per 100,000",Crude Rate,54.9,Age 45-64,0.116
+Iowa,"cases per 100,000",Crude Rate,3.0,Age 0-44,0.07
+Maryland,"cases per 100,000",Crude Rate,2.4,Age 0-44,0.083
+Kansas,"cases per 100,000",Crude Rate,3.6,Age 0-44,0.132
+Louisiana,"cases per 100,000",Crude Rate,4.5,Age 0-44,0.13
+Indiana,"cases per 100,000",Crude Rate,3.5,Age 0-44,0.117
+Kentucky,"cases per 100,000",Crude Rate,525.2,Age >=65,0.09
+Kansas,"cases per 100,000",Crude Rate,627.4,Age >=65,0.132
+Idaho,"cases per 100,000",Crude Rate,63.6,Age 45-64,0.16
+Maine,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.116
+Iowa,"cases per 100,000",Crude Rate,638.2,Age >=65,0.07
+Maine,"cases per 100,000",Crude Rate,491.8,Age >=65,0.116
+Maryland,"cases per 100,000",Crude Rate,67.0,Age 45-64,0.083
+Illinois,"cases per 100,000",Crude Rate,68.1,Age 45-64,0.103
+Louisiana,"cases per 100,000",Crude Rate,501.2,Age >=65,0.13
+Idaho,"cases per 100,000",Crude Rate,432.4,Age >=65,0.16
+Kansas,"cases per 100,000",Crude Rate,86.8,Age 45-64,0.132
+Iowa,"cases per 100,000",Crude Rate,103.7,Age 45-64,0.07
+Missouri,"cases per 100,000",Crude Rate,4.8,Age 0-44,0.143
+Mississippi,"cases per 100,000",Crude Rate,137.3,Age 45-64,0.195
+Minnesota,"cases per 100,000",Crude Rate,376.5,Age >=65,0.066
+Massachusetts,"cases per 100,000",Crude Rate,49.0,Age 45-64,0.044
+Michigan,"cases per 100,000",Crude Rate,661.9,Age >=65,0.083
+Nebraska,"cases per 100,000",Crude Rate,455.1,Age >=65,0.114
+Massachusetts,"cases per 100,000",Crude Rate,411.2,Age >=65,0.044
+Minnesota,"cases per 100,000",Crude Rate,2.1,Age 0-44,0.066
+Montana,"cases per 100,000",Crude Rate,3.4,Age 0-44,0.117
+Massachusetts,"cases per 100,000",Crude Rate,2.1,Age 0-44,0.044
+Montana,"cases per 100,000",Crude Rate,497.5,Age >=65,0.117
+Nevada,"cases per 100,000",Crude Rate,86.8,Age 45-64,0.157
+Nebraska,"cases per 100,000",Crude Rate,58.1,Age 45-64,0.114
+Mississippi,"cases per 100,000",Crude Rate,565.7,Age >=65,0.195
+Michigan,"cases per 100,000",Crude Rate,3.5,Age 0-44,0.083
+Missouri,"cases per 100,000",Crude Rate,575.9,Age >=65,0.143
+Nevada,"cases per 100,000",Crude Rate,599.6,Age >=65,0.157
+Michigan,"cases per 100,000",Crude Rate,98.6,Age 45-64,0.083
+Nebraska,"cases per 100,000",Crude Rate,2.4,Age 0-44,0.114
+Minnesota,"cases per 100,000",Crude Rate,46.2,Age 45-64,0.066
+Montana,"cases per 100,000",Crude Rate,93.7,Age 45-64,0.117
+Nevada,"cases per 100,000",Crude Rate,2.5,Age 0-44,0.157
+Missouri,"cases per 100,000",Crude Rate,108.3,Age 45-64,0.143
+Mississippi,"cases per 100,000",Crude Rate,7.8,Age 0-44,0.195
+New York,"cases per 100,000",Crude Rate,779.2,Age >=65,0.076
+New Hampshire,"cases per 100,000",Crude Rate,67.4,Age 45-64,0.09
+North Carolina,"cases per 100,000",Crude Rate,2.7,Age 0-44,0.167
+Ohio,"cases per 100,000",Crude Rate,95.9,Age 45-64,0.092
+New Jersey,"cases per 100,000",Crude Rate,565.9,Age >=65,0.112
+New Hampshire,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.09
+Oklahoma,"cases per 100,000",Crude Rate,107.8,Age 45-64,0.217
+Ohio,"cases per 100,000",Crude Rate,598.9,Age >=65,0.092
+North Dakota,"cases per 100,000",Crude Rate,81.4,Age 45-64,0.087
+New York,"cases per 100,000",Crude Rate,2.2,Age 0-44,0.076
+New Mexico,"cases per 100,000",Crude Rate,618.4,Age >=65,0.144
+North Dakota,"cases per 100,000",Crude Rate,541.5,Age >=65,0.087
+North Carolina,"cases per 100,000",Crude Rate,454.0,Age >=65,0.167
+New Mexico,"cases per 100,000",Crude Rate,109.3,Age 45-64,0.144
+New Jersey,"cases per 100,000",Crude Rate,58.7,Age 45-64,0.112
+New Jersey,"cases per 100,000",Crude Rate,2.3,Age 0-44,0.112
+Oklahoma,"cases per 100,000",Crude Rate,674.8,Age >=65,0.217
+North Carolina,"cases per 100,000",Crude Rate,80.8,Age 45-64,0.167
+North Dakota,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.087
+Oklahoma,"cases per 100,000",Crude Rate,4.2,Age 0-44,0.217
+New Mexico,"cases per 100,000",Crude Rate,2.8,Age 0-44,0.144
+Ohio,"cases per 100,000",Crude Rate,3.5,Age 0-44,0.092
+New York,"cases per 100,000",Crude Rate,77.6,Age 45-64,0.076
+New Hampshire,"cases per 100,000",Crude Rate,445.5,Age >=65,0.09
+Pennsylvania,"cases per 100,000",Crude Rate,83.0,Age 45-64,0.078
+Tennessee,"cases per 100,000",Crude Rate,647.9,Age >=65,0.149
+South Carolina,"cases per 100,000",Crude Rate,400.4,Age >=65,0.16
+Rhode Island,"cases per 100,000",Crude Rate,723.4,Age >=65,0.061
+Rhode Island,"cases per 100,000",Crude Rate,63.6,Age 45-64,0.061
+Oregon,"cases per 100,000",Crude Rate,370.3,Age >=65,0.101
+South Carolina,"cases per 100,000",Crude Rate,89.9,Age 45-64,0.16
+Tennessee,"cases per 100,000",Crude Rate,4.1,Age 0-44,0.149
+South Dakota,"cases per 100,000",Crude Rate,4.4,Age 0-44,0.138
+Texas,"cases per 100,000",Crude Rate,3.2,Age 0-44,0.245
+Pennsylvania,"cases per 100,000",Crude Rate,3.1,Age 0-44,0.078
+Texas,"cases per 100,000",Crude Rate,82.7,Age 45-64,0.245
+South Dakota,"cases per 100,000",Crude Rate,626.8,Age >=65,0.138
+South Carolina,"cases per 100,000",Crude Rate,3.5,Age 0-44,0.16
+South Dakota,"cases per 100,000",Crude Rate,99.8,Age 45-64,0.138
+Rhode Island,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.061
+Oregon,"cases per 100,000",Crude Rate,48.7,Age 45-64,0.101
+Tennessee,"cases per 100,000",Crude Rate,136.1,Age 45-64,0.149
+Oregon,"cases per 100,000",Crude Rate,1.5,Age 0-44,0.101
+Pennsylvania,"cases per 100,000",Crude Rate,580.4,Age >=65,0.078
+Texas,"cases per 100,000",Crude Rate,518.1,Age >=65,0.245
+West Virginia,"cases per 100,000",Crude Rate,4.6,Age 0-44,0.099
+Wyoming,"cases per 100,000",Crude Rate,457.8,Age >=65,0.167
+Vermont,"cases per 100,000",Crude Rate,574.2,Age >=65,0.07
+Washington,"cases per 100,000",Crude Rate,60.1,Age 45-64,0.094
+Virginia,"cases per 100,000",Crude Rate,3.0,Age 0-44,0.112
+West Virginia,"cases per 100,000",Crude Rate,715.8,Age >=65,0.099
+Virginia,"cases per 100,000",Crude Rate,429.6,Age >=65,0.112
+West Virginia,"cases per 100,000",Crude Rate,122.9,Age 45-64,0.099
+Utah,"cases per 100,000",Crude Rate,42.4,Age 45-64,0.122
+Utah,"cases per 100,000",Crude Rate,364.9,Age >=65,0.122
+Vermont,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.07
+Washington,"cases per 100,000",Crude Rate,1.7,Age 0-44,0.094
+Wyoming,"cases per 100,000",Crude Rate,0.0,Age 0-44,0.167
+Utah,"cases per 100,000",Crude Rate,1.2,Age 0-44,0.122
+Washington,"cases per 100,000",Crude Rate,458.9,Age >=65,0.094
+Virginia,"cases per 100,000",Crude Rate,69.8,Age 45-64,0.112
+Wisconsin,"cases per 100,000",Crude Rate,531.3,Age >=65,0.082
+Vermont,"cases per 100,000",Crude Rate,91.7,Age 45-64,0.07
+Wisconsin,"cases per 100,000",Crude Rate,76.4,Age 45-64,0.082
+Wyoming,"cases per 100,000",Crude Rate,70.1,Age 45-64,0.167
+Wisconsin,"cases per 100,000",Crude Rate,2.8,Age 0-44,0.082
