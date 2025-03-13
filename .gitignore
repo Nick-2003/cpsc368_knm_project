@@ -628,3 +628,4 @@ FodyWeavers.xsd
 # altair data ignore -- very big
 
 **/altairdata/
+.DS_Store
