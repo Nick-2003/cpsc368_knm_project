@@ -1,187 +1,23 @@
-Stratification1,Type,State,Disease,DeathRateUnit,DeathRateType,AvgDeathRate,All_Uninsured
-"Asian or Pacific Islander, non-Hispanic",Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.2799999999999999,0.245
-"American Indian or Alaska Native, non-Hispanic",Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-Hispanic,Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,1.6800000000000002,0.044
-"Black, non-Hispanic",Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,2.1,0.044
-"Black, non-Hispanic",Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.08,0.044
-"American Indian or Alaska Native, non-Hispanic",Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,1.04,0.245
-Female,Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,0.0,0.245
-Female,Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.2799999999999999,0.044
-Male,Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,7.18,0.245
-"American Indian or Alaska Native, non-Hispanic",Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,0.0,0.245
-Male,Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.9,0.044
-Hispanic,Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,1.12,0.044
-"Asian or Pacific Islander, non-Hispanic",Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.8400000000000001,0.044
-Overall,Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,9.0,0.044
-Female,Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,2.3600000000000003,0.245
-Overall,Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,4.220000000000001,0.245
-"White, non-Hispanic",Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,5.3,0.044
-"White, non-Hispanic",Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,10.72,0.044
-Overall,Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,6.36,0.245
-Male,Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-Hispanic,Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,1.28,0.245
-Male,Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,2.96,0.044
-"Black, non-Hispanic",Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,3.78,0.245
-Hispanic,Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.54,0.245
-"American Indian or Alaska Native, non-Hispanic",Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-"American Indian or Alaska Native, non-Hispanic",Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-"Asian or Pacific Islander, non-Hispanic",Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,1.02,0.044
-"American Indian or Alaska Native, non-Hispanic",Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,1.52,0.245
-"White, non-Hispanic",Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.34,0.044
-"White, non-Hispanic",Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.26,0.044
-"White, non-Hispanic",Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,11.02,0.044
-Hispanic,Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,1.28,0.044
-Male,Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,8.82,0.044
-Male,Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,9.12,0.044
-Hispanic,Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,1.72,0.044
-Male,Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.0,0.245
-Female,Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-"White, non-Hispanic",Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.6,0.245
-Male,Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,0.0,0.245
-Male,Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-"Black, non-Hispanic",Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.12,0.044
-Hispanic,Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.86,0.044
-Female,Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,8.559999999999999,0.044
-"American Indian or Alaska Native, non-Hispanic",Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-Hispanic,Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,1.6,0.245
-Male,Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,2.94,0.044
-Hispanic,Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,1.84,0.245
-"White, non-Hispanic",Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.26,0.044
-"White, non-Hispanic",Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,5.32,0.044
-"Black, non-Hispanic",Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.36,0.044
-Overall,Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,8.68,0.044
-"White, non-Hispanic",Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,5.88,0.245
-"Asian or Pacific Islander, non-Hispanic",Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,1.5,0.044
-"Asian or Pacific Islander, non-Hispanic",Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,1.06,0.044
-"Asian or Pacific Islander, non-Hispanic",Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.44,0.044
-Overall,Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,2.8,0.044
-"Black, non-Hispanic",Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,3.26,0.245
-Female,Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,2.72,0.044
-"Black, non-Hispanic",Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.16,0.044
-"American Indian or Alaska Native, non-Hispanic",Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-Hispanic,Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.86,0.044
-Hispanic,Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.24,0.044
-"American Indian or Alaska Native, non-Hispanic",Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-"Black, non-Hispanic",Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.82,0.044
-Male,Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-Hispanic,Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.22,0.044
-Male,Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,3.1,0.245
-Male,Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.82,0.044
-Female,Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.2799999999999999,0.044
-Female,Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,8.879999999999999,0.044
-"White, non-Hispanic",Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.46,0.044
-"White, non-Hispanic",Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.54,0.044
-Female,Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.58,0.245
-"American Indian or Alaska Native, non-Hispanic",Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-"Asian or Pacific Islander, non-Hispanic",Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.76,0.044
-"Asian or Pacific Islander, non-Hispanic",Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,2.56,0.245
-"Black, non-Hispanic",Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,5.48,0.245
-"Asian or Pacific Islander, non-Hispanic",Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,1.3199999999999998,0.245
-"Black, non-Hispanic",Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,6.34,0.245
-"White, non-Hispanic",Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,4.0600000000000005,0.245
-"Black, non-Hispanic",Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.4,0.044
-"Black, non-Hispanic",Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.72,0.245
-Female,Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,4.220000000000001,0.245
-Hispanic,Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,1.56,0.044
-"Asian or Pacific Islander, non-Hispanic",Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.3,0.044
-"Black, non-Hispanic",Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,2.0,0.044
-Overall,Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.2799999999999999,0.044
-Male,Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-Hispanic,Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,1.6,0.044
-"American Indian or Alaska Native, non-Hispanic",Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,3.12,0.245
-Male,Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,2.74,0.245
-Female,Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,5.5600000000000005,0.245
-Female,Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,2.64,0.044
-Overall,Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.2799999999999999,0.044
-Overall,Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.58,0.245
-"Asian or Pacific Islander, non-Hispanic",Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.34,0.044
-Female,Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.5600000000000005,0.044
-Female,Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.54,0.044
-Overall,Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.54,0.044
-"White, non-Hispanic",Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,3.78,0.245
-"American Indian or Alaska Native, non-Hispanic",Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.6,0.044
-Overall,Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.5600000000000005,0.044
-"White, non-Hispanic",Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.3600000000000003,0.044
-"Asian or Pacific Islander, non-Hispanic",Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,0.6599999999999999,0.245
-Female,Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-"Asian or Pacific Islander, non-Hispanic",Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.3,0.044
-Overall,Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.82,0.044
-Overall,Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,2.74,0.245
-"Black, non-Hispanic",Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.78,0.044
-"American Indian or Alaska Native, non-Hispanic",Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-Overall,Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,2.84,0.044
-"American Indian or Alaska Native, non-Hispanic",Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.0,0.044
-Overall,Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,2.74,0.245
-"Asian or Pacific Islander, non-Hispanic",Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,1.52,0.044
-"Asian or Pacific Islander, non-Hispanic",Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,2.06,0.245
-"Black, non-Hispanic",Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.9,0.044
-Overall,Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.9,0.044
-"American Indian or Alaska Native, non-Hispanic",Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.0,0.245
-"White, non-Hispanic",Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,10.94,0.245
-Hispanic,Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,2.28,0.245
-Female,Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,5.44,0.245
-"Black, non-Hispanic",Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,3.9,0.245
-Male,Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,0.0,0.245
-"American Indian or Alaska Native, non-Hispanic",Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,0.0,0.245
-"American Indian or Alaska Native, non-Hispanic",Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.0,0.245
-Hispanic,Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,1.26,0.245
-Hispanic,Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,1.82,0.245
-Female,Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.58,0.245
-"American Indian or Alaska Native, non-Hispanic",Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,1.28,0.245
-Overall,Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,6.220000000000001,0.245
-Hispanic,Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.54,0.245
-"American Indian or Alaska Native, non-Hispanic",Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,2.68,0.245
-Hispanic,Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,1.62,0.245
-Female,Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,4.220000000000001,0.245
-"Asian or Pacific Islander, non-Hispanic",Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,2.16,0.245
-Female,Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,0.0,0.245
-"Black, non-Hispanic",Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,5.46,0.245
-"White, non-Hispanic",Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,5.88,0.245
-"Asian or Pacific Islander, non-Hispanic",Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,0.6799999999999999,0.245
-Male,Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,2.8,0.245
-Female,Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,2.3600000000000003,0.245
-Male,Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,7.0,0.245
-"White, non-Hispanic",Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,10.76,0.245
-Overall,Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,4.220000000000001,0.245
-"Black, non-Hispanic",Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.72,0.245
-"Asian or Pacific Islander, non-Hispanic",Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.32,0.245
-"White, non-Hispanic",Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,4.2,0.245
-"Black, non-Hispanic",Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,6.24,0.245
-Overall,Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,2.8,0.245
-Male,Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,3.12,0.245
-"White, non-Hispanic",Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,3.8,0.245
-Overall,Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,2.74,0.245
-"American Indian or Alaska Native, non-Hispanic",Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,1.5,0.245
-"Black, non-Hispanic",Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,3.24,0.245
-"White, non-Hispanic",Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.6,0.245
-Male,Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.0,0.245
-Overall,Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.58,0.245
-Hispanic,Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,2.3,0.245
-"Asian or Pacific Islander, non-Hispanic",Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,1.42,0.245
-"Asian or Pacific Islander, non-Hispanic",Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,2.6,0.245
-"Black, non-Hispanic",Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,44.7,0.044
-"Hawaiian or Pacific Islander, non-Hispanic",Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,0.0,0.044
-Age 45-64,Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,49.0,0.044
-Female,Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,65.9,0.044
-Age >=65,Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,411.2,0.044
-Male,Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,103.1,0.044
-Age 0-44,Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,2.1,0.044
-Hispanic,Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,21.9,0.044
-"Asian, non-Hispanic",Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,19.2,0.044
-"White, non-Hispanic",Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,105.8,0.044
-Overall,Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,84.0,0.044
-"American Indian or Alaska Native, non-Hispanic",Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,0.0,0.044
-"Multiracial, non-Hispanic",Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,17.9,0.044
-"Multiracial, non-Hispanic",Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,8.4,0.245
-"Asian, non-Hispanic",Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,34.0,0.245
-"American Indian or Alaska Native, non-Hispanic",Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,40.4,0.245
-Age 0-44,Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,3.2,0.245
-Male,Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,107.9,0.245
-Age 45-64,Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,82.7,0.245
-"Hawaiian or Pacific Islander, non-Hispanic",Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,0.0,0.245
-"Black, non-Hispanic",Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,85.6,0.245
-"White, non-Hispanic",Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,138.3,0.245
-Hispanic,Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,47.1,0.245
-Female,Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,68.8,0.245
-Overall,Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,88.3,0.245
-Age >=65,Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,518.1,0.245
+DataValue,Stratification1,Type,State,Disease,DeathRateUnit,DeathRateType,AvgDeathRate,All_Uninsured
+45.0,Overall,Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,9.0,0.044
+21.1,Overall,Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,4.220000000000001,0.245
+31.8,Overall,Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,6.36,0.245
+43.4,Overall,Lung cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,8.68,0.044
+14.0,Overall,Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,2.8,0.044
+1.4,Overall,Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.2799999999999999,0.044
+1.4,Overall,Cervical cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,0.2799999999999999,0.044
+2.9,Overall,Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.58,0.245
+22.7,Overall,Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.54,0.044
+22.8,Overall,Breast cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,4.5600000000000005,0.044
+19.1,Overall,Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.82,0.044
+13.7,Overall,Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,2.74,0.245
+14.2,Overall,Colorectal cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,2.84,0.044
+13.7,Overall,Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,2.74,0.245
+19.5,Overall,Prostate cancer,Massachusetts,Cancer,"per 100,000",Crude Rate,3.9,0.044
+31.1,Overall,Lung cancer,Texas,Cancer,"per 100,000",Crude Rate,6.220000000000001,0.245
+21.1,Overall,Breast cancer,Texas,Cancer,"per 100,000",Crude Rate,4.220000000000001,0.245
+14.0,Overall,Prostate cancer,Texas,Cancer,"per 100,000",Crude Rate,2.8,0.245
+13.7,Overall,Colorectal cancer,Texas,Cancer,"per 100,000",Crude Rate,2.74,0.245
+2.9,Overall,Cervical cancer,Texas,Cancer,"per 100,000",Crude Rate,0.58,0.245
+84.0,Overall,Coronary heart disease,Massachusetts,Cardiovascular Disease,"per 100,000",Crude Rate,84.0,0.044
+88.3,Overall,Coronary heart disease,Texas,Cardiovascular Disease,"per 100,000",Crude Rate,88.3,0.245
