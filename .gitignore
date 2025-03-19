@@ -38,7 +38,7 @@ ipython_config.py
 
 ### macOS ###
 # General
-.DS_Store
+*/.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -628,9 +628,5 @@ FodyWeavers.xsd
 # altair data ignore -- very big
 
 **/altairdata/
-.DS_Store
-.DS_Store
-.DS_Store
 .ipynb_checkpoints/cpsc_368_project_knm-checkpoint.ipynb
 /.ipynb_checkpoints
-.DS_Store

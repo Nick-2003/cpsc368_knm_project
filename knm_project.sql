@@ -60,6 +60,7 @@ INSERT INTO KFF2019_new (Location, All_Uninsured, Female_Uninsured, Male_Uninsur
 INSERT INTO KFF2019_new (Location, All_Uninsured, Female_Uninsured, Male_Uninsured) VALUES ('West Virginia', 0.099, 0.08, 0.117);
 INSERT INTO KFF2019_new (Location, All_Uninsured, Female_Uninsured, Male_Uninsured) VALUES ('Wisconsin', 0.082, 0.067, 0.097);
 INSERT INTO KFF2019_new (Location, All_Uninsured, Female_Uninsured, Male_Uninsured) VALUES ('Wyoming', 0.167, 0.167, 0.167);
+
 DROP TABLE USCDI;
 
 CREATE TABLE USCDI(
@@ -8671,6 +8672,7 @@ INSERT INTO USCDI (YearStart, YearEnd, LocationDesc, Topic, Question, DataValueU
 INSERT INTO USCDI (YearStart, YearEnd, LocationDesc, Topic, Question, DataValueUnit, DataValueType, DataValue, StratificationCategory1, Stratification1, Has2019, Range, AvgDataValue) VALUES (2021, 2021, 'Wisconsin', 'Cardiovascular Disease', 'Coronary heart disease mortality among all people, underlying cause', 'cases per 100,000', 'Crude Rate', 118.2, 'Overall', 'Overall', 0, 1, 118.2);
 INSERT INTO USCDI (YearStart, YearEnd, LocationDesc, Topic, Question, DataValueUnit, DataValueType, DataValue, StratificationCategory1, Stratification1, Has2019, Range, AvgDataValue) VALUES (2021, 2021, 'Wyoming', 'Cardiovascular Disease', 'Cerebrovascular disease (stroke) mortality among all people, underlying cause', 'cases per 100,000', 'Crude Rate', 44.6, 'Sex', 'Female', 0, 1, 44.6);
 INSERT INTO USCDI (YearStart, YearEnd, LocationDesc, Topic, Question, DataValueUnit, DataValueType, DataValue, StratificationCategory1, Stratification1, Has2019, Range, AvgDataValue) VALUES (2021, 2021, 'Wyoming', 'Cardiovascular Disease', 'Diseases of the heart mortality among all people, underlying cause', 'cases per 100,000', 'Age-adjusted Rate', 159.4, 'Overall', 'Overall', 0, 1, 159.4);
+
 DROP TABLE USCDI_CHD;
 
 CREATE TABLE USCDI_CHD(
@@ -8736,3 +8738,4 @@ INSERT INTO USCDI_CHD (LocationDesc, Frac_F, CHD_Deaths, CHD_Deaths_F, CHD_Death
 INSERT INTO USCDI_CHD (LocationDesc, Frac_F, CHD_Deaths, CHD_Deaths_F, CHD_Deaths_M, CHDPercentage, CHDPercentage_F, CHDPercentage_M) VALUES ('West Virginia', 0.38076622361219703, 127.5, 48.54769351055512, 78.95230648944488, 0.001275, 0.000485476935105551, 0.000789523064894449);
 INSERT INTO USCDI_CHD (LocationDesc, Frac_F, CHD_Deaths, CHD_Deaths_F, CHD_Deaths_M, CHDPercentage, CHDPercentage_F, CHDPercentage_M) VALUES ('Wisconsin', 0.3123957754307949, 79.2, 24.741745414118956, 54.45825458588105, 0.000792, 0.00024741745414119, 0.00054458254585881);
 INSERT INTO USCDI_CHD (LocationDesc, Frac_F, CHD_Deaths, CHD_Deaths_F, CHD_Deaths_M, CHDPercentage, CHDPercentage_F, CHDPercentage_M) VALUES ('Wyoming', 0.28448275862068967, 70.1, 19.942241379310346, 50.15775862068965, 0.000701, 0.000199422413793103, 0.000501577586206897);
+
