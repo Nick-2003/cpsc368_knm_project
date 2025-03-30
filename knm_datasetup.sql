@@ -75,7 +75,7 @@ CREATE TABLE USCDI(
     StratificationCategory1 VARCHAR(10),
     Stratification1 VARCHAR(10),
     Has2019 NUMBER(1,0) NOT NULL,
-    Range NUMBER(1,0) NOT NULL,
+    Range NUMBER(2,0) NOT NULL,
     AvgDataValue DECIMAL(24, 18),
     PRIMARY KEY(YearStart, YearEnd, LocationDesc, Topic, Question, DataValueUnit, DataValueType, StratificationCategory1, Stratification1)
 );

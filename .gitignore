@@ -9,8 +9,8 @@
 # Images
 */images/analysis3_eda/*
 
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
+/.ipynb_checkpoints
+**/*.ipynb_checkpoints/
 *.json
 */altairdata/*
 
@@ -628,5 +628,3 @@ FodyWeavers.xsd
 # altair data ignore -- very big
 
 **/altairdata/
-.ipynb_checkpoints/cpsc_368_project_knm-checkpoint.ipynb
-/.ipynb_checkpoints
