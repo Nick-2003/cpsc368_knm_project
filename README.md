@@ -1,1 +1,4 @@
-# cpsc368_knm_project
+# CPSC 368 (KNM Neighbours)
+
+## Research Questions
+
