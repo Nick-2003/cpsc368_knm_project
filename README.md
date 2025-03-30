@@ -73,17 +73,24 @@ The data is formatted such that each individual data value corresponds to a list
 ## Code Process
 
 - Run the "cpsc_368_project_knm.ipynb" notebook to create the cleaned datasets.
-- 
+- Run the "cpsc_368_project_knm_csv_to_sql.ipynb" notebook to create the SQL script file.
+- Run the Jupyter notebooks corresponding to each project question to obtain the results for each analysis.
 
 ## SQL Queries
 
-```sql
-SELECT
-```
+- Impact by Sex
 
 ```sql
 SELECT
 ```
+
+- Impact by State
+
+```sql
+SELECT
+```
+
+- Impact by Disease
 
 ```sql
 SELECT
