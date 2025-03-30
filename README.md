@@ -2,25 +2,29 @@
 
 ## Research Questions
 
-The impact of health insurance will be measured in three ways: (1) by sex (male and female), focusing on coronary heart disease mortality by sex between Texas and Massachusetts; (2) by state, examining coronary heart disease mortality across different states; and (3) by disease, comparing coronary heart disease mortality and various cancer mortalities between Texas and Massachusetts.
+This research paper explores how health insurance coverage impacts health outcomes among U.S. adults, with the goal to present significant findings that serve as supporting evidence to the extent to which health insurance impacts health, aiming to attract attention in the healthcare and health insurance fields. The impact of health insurance will be measured in three ways:
+
+- By sex (male and female), focusing on coronary heart disease mortality by sex between Texas and Massachusetts.
+- By state, examining coronary heart disease mortality across different states.
+- By disease, comparing coronary heart disease mortality and various cancer mortalities between Texas and Massachusetts.
 
 ## Files
 
 | File | Type | Use |
 | ------- | ------- | ------- |
-| U.S._Chronic_Disease_Indicators.csv  | ___ | ___ |
-| kff_health_insurance_2019_adult.csv | ___ | ___ |
-| kff_health_insurance_2019_female.csv | ___ | ___ |
-| kff_health_insurance_2019_male.csv | ___ | ___ |
-| KFF2019_new.csv  | ___ | ___ |
-| USCDI.csv | ___ | ___ |
-| USCDI_CHD.csv | ___ | ___ |
-| cpsc_368_project_knm.ipynb  | ___ | ___ |
-| cpsc_368_project_knm_csv_to_sql.ipynb | ___ | ___ |
-| cpsc_368_project_knm_disease.ipynb | ___ | ___ |
-| cpsc_368_project_knm_sex.ipynb | ___ | ___ |
-| cpsc_368_project_knm_state.ipynb  | ___ | ___ |
-| knm_datasetup.sql | ___ | ___ |
+| U.S._Chronic_Disease_Indicators.csv | CSV table | "U.S. Chronic Disease Indicators" dataset obtained from the Centers for Disease Control and Prevention. |
+| kff_health_insurance_2019_adult.csv | CSV table | "Health Insurance Coverage of Adults Ages 19-64" dataset obtained from the KFF. |
+| kff_health_insurance_2019_female.csv | CSV table | "Health Insurance Coverage of Women Ages 19-64" dataset obtained from the KFF. |
+| kff_health_insurance_2019_male.csv | CSV table | "Health Insurance Coverage of Men Ages 19-64" dataset obtained from the KFF. |
+| KFF2019_new.csv | CSV table | Combination of KFF datasets showing uninsurance rates for overall and for each sex; cleaned dataset used for database table. |
+| USCDI.csv | CSV table | Filtered version of "U.S._Chronic_Disease_Indicators.csv" dataset; cleaned dataset used for database table. |
+| USCDI_CHD.csv | CSV table | Aggregated version of "USCDI.csv" dataset, estimating the proportions of men and women aged between 19-64 that died by coronary heart disease; cleaned dataset used for database table. |
+| cpsc_368_project_knm.ipynb | Jupyter Notebook | Notebook to create the cleaned datasets using the initial datasets from the folders "final_datasets_V1/CDC" and "final_datasets_V1/KFF". |
+| cpsc_368_project_knm_csv_to_sql.ipynb | Jupyter Notebook | Notebook to create the SQL file from the cleaned datasets. |
+| cpsc_368_project_knm_sex.ipynb | Jupyter Notebook | Notebook to complete the analysis for the project question "Impact of Health Insurance on Health Outcomes among U.S. Adults by Sex". |
+| cpsc_368_project_knm_state.ipynb  | Jupyter Notebook | Notebook to complete the analysis for the project question "Impact of Health Insurance on Health Outcomes among U.S. Adults by State". |
+| cpsc_368_project_knm_disease.ipynb | Jupyter Notebook | Notebook to complete the analysis for the project question "Impact of Health Insurance on Health Outcomes among U.S. Adults by Disease". |
+| knm_datasetup.sql | SQL file | Contains the SQL script to drop and create database tables, and insert their corresponding values. |
 
 ## Database Table Details
 
@@ -67,6 +71,9 @@ The data is formatted such that each individual data value corresponds to a list
 | `CHDPercentage_M` | Percentage of male mortalities by CHD within 100,000 people for individuals aged between 19-64 | `DECIMAL(19, 18)` | N/A |
 
 ## Code Process
+
+- Run the "cpsc_368_project_knm.ipynb" notebook to create the cleaned datasets.
+- 
 
 ## SQL Queries
 
