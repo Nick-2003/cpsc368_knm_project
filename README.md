@@ -26,6 +26,16 @@ This research paper explores how health insurance coverage impacts health outcom
 | cpsc_368_project_knm_disease.ipynb | Jupyter Notebook | Notebook to complete the analysis for the project question "Impact of Health Insurance on Health Outcomes among U.S. Adults by Disease". |
 | knm_datasetup.sql | SQL file | Contains the SQL script to drop and create database tables, and insert their corresponding values. |
 
+## Imported Libraries
+
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `altair`
+- `seaborn`
+- `sklearn`
+- `csv`
+
 ## Database Table Details
 
 ### KFF2019_new
