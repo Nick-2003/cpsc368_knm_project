@@ -26,6 +26,12 @@ This research paper explores how health insurance coverage impacts health outcom
 | cpsc_368_project_knm_disease.ipynb | Jupyter Notebook | Notebook to complete the analysis for the project question "Impact of Health Insurance on Health Outcomes among U.S. Adults by Disease". |
 | knm_datasetup.sql | SQL file | Contains the SQL script to drop and create database tables, and insert their corresponding values. |
 
+## Code Process
+
+- Run the "cpsc_368_project_knm.ipynb" notebook to create the cleaned datasets.
+- Run the "cpsc_368_project_knm_csv_to_sql.ipynb" notebook to create the SQL script file.
+- Run the Jupyter notebooks corresponding to each project question to obtain the results for each analysis.
+
 ## Imported Libraries
 
 - `matplotlib`
@@ -80,28 +86,22 @@ The data is formatted such that each individual data value corresponds to a list
 | `CHDPercentage_F` | Percentage of female mortalities by CHD within 100,000 people for individuals aged between 19-64 | `DECIMAL(19, 18)` | N/A |
 | `CHDPercentage_M` | Percentage of male mortalities by CHD within 100,000 people for individuals aged between 19-64 | `DECIMAL(19, 18)` | N/A |
 
-## Code Process
-
-- Run the "cpsc_368_project_knm.ipynb" notebook to create the cleaned datasets.
-- Run the "cpsc_368_project_knm_csv_to_sql.ipynb" notebook to create the SQL script file.
-- Run the Jupyter notebooks corresponding to each project question to obtain the results for each analysis.
-
 ## SQL Queries
 
 - Impact by Sex
 
 ```sql
-SELECT
+SELECT ___
 ```
 
 - Impact by State
 
 ```sql
-SELECT
+SELECT ___
 ```
 
 - Impact by Disease
 
 ```sql
-SELECT
+SELECT ___
 ```
