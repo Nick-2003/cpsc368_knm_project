@@ -79,44 +79,54 @@ The data is formatted such that each individual data value corresponds to a list
 
 ```sql
 CREATE TABLE USCDI_CHD AS
-SELECT 
-    total.LocationDesc AS LocationDesc,
-    CAST(female.DataValue / total.DataValue AS DECIMAL(19, 18)) AS Frac_F,
-    CAST(total.DataValue AS DECIMAL(24, 18)) AS CHD_Deaths,
-    CAST(female.DataValue AS DECIMAL(24, 18)) AS CHD_Deaths_F,
-    CAST(male.DataValue AS DECIMAL(24, 18)) AS CHD_Deaths_M,
-    CAST(total.DataValue / 1000 AS DECIMAL(19, 18)) AS CHDPercentage,
-    CAST(female.DataValue / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_F,
-    CAST(male.DataValue / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_M
-FROM 
-    (SELECT LocationDesc, DataValue
-     FROM USCDI
-     WHERE Topic = 'Cardiovascular Diseases'
-       AND Question = 'Death rate from coronary heart disease (CHD)'
-       AND DataValueUnit = 'per 100,000'
-       AND StratificationCategory1 = 'Age'
-       AND Stratification1 = '19-64'
-       AND Has2019 = 1) total
-JOIN
-    (SELECT LocationDesc, DataValue
-     FROM USCDI
-     WHERE Topic = 'Cardiovascular Diseases'
-       AND Question = 'Death rate from coronary heart disease (CHD)'
-       AND DataValueUnit = 'per 100,000'
-       AND StratificationCategory1 = 'Sex'
-       AND Stratification1 = 'Female'
-       AND Has2019 = 1) female
-ON total.LocationDesc = female.LocationDesc
-JOIN
-    (SELECT LocationDesc, DataValue
-     FROM USCDI
-     WHERE Topic = 'Cardiovascular Diseases'
-       AND Question = 'Death rate from coronary heart disease (CHD)'
-       AND DataValueUnit = 'per 100,000'
-       AND StratificationCategory1 = 'Sex'
-       AND Stratification1 = 'Male'
-       AND Has2019 = 1) male
-ON total.LocationDesc = male.LocationDesc
+    WITH CHD_Data AS (
+        SELECT 
+            total.LocationDesc AS LocationDesc,
+            CAST(female.AvgDataValue / (female.AvgDataValue + male.AvgDataValue) AS DECIMAL(19, 18)) AS Frac_F,
+            CAST(total.AvgDataValue AS DECIMAL(24, 18)) AS CHD_Deaths
+        FROM 
+            (SELECT LocationDesc, AvgDataValue
+            FROM USCDI
+            WHERE Topic = 'Cardiovascular Diseases'
+            AND Question = 'Death rate from coronary heart disease (CHD)'
+            AND DataValueUnit = 'cases per 100,000'
+            AND StratificationCategory1 = 'Age'
+            AND Stratification1 IN ('Age 0-44', 'Age 45-64')
+            AND DataValueType = 'Crude Rate'
+            AND Has2019 = 1) total
+        JOIN
+            (SELECT LocationDesc, AvgDataValue
+            FROM USCDI
+            WHERE Topic = 'Cardiovascular Diseases'
+            AND Question = 'Death rate from coronary heart disease (CHD)'
+            AND DataValueUnit = 'cases per 100,000'
+            AND StratificationCategory1 = 'Sex'
+            AND Stratification1 = 'Female'
+            AND DataValueType = 'Age-adjusted Rate'
+            AND Has2019 = 1) female
+        ON total.LocationDesc = female.LocationDesc
+        JOIN
+            (SELECT LocationDesc, AvgDataValue
+            FROM USCDI
+            WHERE Topic = 'Cardiovascular Diseases'
+            AND Question = 'Death rate from coronary heart disease (CHD)'
+            AND DataValueUnit = 'cases per 100,000'
+            AND StratificationCategory1 = 'Sex'
+            AND Stratification1 = 'Male'
+            AND DataValueType = 'Age-adjusted Rate'
+            AND Has2019 = 1) male
+        ON total.LocationDesc = male.LocationDesc
+    )
+    SELECT 
+        CHD_Data.LocationDesc,
+        CHD_Data.Frac_F,
+        CHD_Data.CHD_Deaths,
+        CAST(CHD_Data.CHD_Deaths * CHD_Data.Frac_F AS DECIMAL(24, 18)) AS CHD_Deaths_F,
+        CAST(CHD_Data.CHD_Deaths * (1 - CHD_Data.Frac_F) AS DECIMAL(24, 18)) AS CHD_Deaths_M,
+        CAST(CHD_Data.CHD_Deaths / 1000 AS DECIMAL(19, 18)) AS CHDPercentage,
+        CAST((CHD_Data.CHD_Deaths * CHD_Data.Frac_F) / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_F,
+        CAST((CHD_Data.CHD_Deaths * (1 - CHD_Data.Frac_F)) / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_M
+    FROM CHD_Data;
 
 SELECT
     uc.LocationDesc,
