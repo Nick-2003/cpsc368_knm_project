@@ -91,17 +91,60 @@ The data is formatted such that each individual data value corresponds to a list
 - Impact by Sex
 
 ```sql
-SELECT ___
+SELECT
+    chd.*,
+    kff.All_Uninsured
+FROM USCDI_CHD chd
+LEFT JOIN KFF2019_new kff
+    ON chd.LocationDesc = kff.Location
 ```
 
 - Impact by State
 
 ```sql
-SELECT ___
+SELECT 
+    us.LocationDesc,
+    us.DataValueUnit AS DeathRateUnit,
+    us.DataValueType AS DeathRateType,
+    us.AvgDataValue AS AvgDeathRate,
+    us.Stratification1,
+    kff.All_Uninsured
+FROM USCDI us
+LEFT JOIN KFF2019_new kff
+    ON us.LocationDesc = kff.Location
+WHERE us.Topic = 'Cardiovascular Disease'
+    AND us.Question = 'Coronary heart disease mortality among all people, underlying cause'
+    AND us.DataValueUnit = 'cases per 100,000'
+    AND us.StratificationCategory1 = 'Age'
+    AND us.Stratification1 IN ('Age 0-44', 'Age 45-64')
+    AND us.DataValueType = 'Crude Rate'
+    AND us.Has2019 = 1
+    AND us.LocationDesc != 'United States';
 ```
 
 - Impact by Disease
 
 ```sql
-SELECT ___
+SELECT 
+    us.LocationDesc AS State,
+    CASE 
+        WHEN us.DataValueUnit = 'cases per 100,000' THEN 'per 100,000'
+        ELSE us.DataValueUnit 
+    END AS DeathRateUnit,
+    us.DataValueType AS DeathRateType,
+    us.AvgDataValue AS AvgDeathRate,
+    us.Stratification1,
+    us.Question,
+    us.DataValue,
+    us.Topic AS Disease,
+    kff.All_Uninsured
+FROM USCDI us
+LEFT JOIN KFF2019_new kff
+    ON us.LocationDesc = kff.Location
+WHERE us.LocationDesc IN ('Texas', 'Massachusetts')
+    AND us.Topic IN ('Cardiovascular Disease', 'Cancer')
+    AND us.DataValueUnit IN ('cases per 100,000', 'per 100,000')
+    AND us.DataValueType = 'Crude Rate'
+    AND us.Stratification1 = 'Overall'
+    AND us.Has2019 = 1
 ```
