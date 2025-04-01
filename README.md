@@ -73,19 +73,6 @@ The data is formatted such that each individual data value corresponds to a list
 | `Range` | Number of years between `YearStart` and `YearEnd` | `NUMBER(2,0)` | `NOT NULL` |
 | `AvgDataValue`  | $\frac{DataValue}{Range}$ | `DECIMAL(24, 18)` | N/A |
 
-### USCDI_CHD
-
-| Column | Description | Data Type | Property |
-| ------- | ------- | ------- | ------- |
-| `LocationDesc`  | State within U.S. | `VARCHAR2(50)` | `PRIMARY KEY` |
-| `Frac_F` | Proportion of female mortalities by CHD | `DECIMAL(19, 18)` | N/A |
-| `CHD_Deaths` | Number of mortalities by CHD per 100,000 people for individuals aged between 19-64 | `DECIMAL(24, 18)` | N/A |
-| `CHD_Deaths_F` | Number of female mortalities by CHD per 100,000 people for individuals aged between 19-64 | `DECIMAL(24, 18)` | N/A |
-| `CHD_Deaths_M` | Number of male mortalities by CHD per 100,000 people for individuals aged between 19-64 | `DECIMAL(24, 18)` | N/A |
-| `CHDPercentage` | Percentage of mortalities by CHD within 100,000 people for individuals aged between 19-64 | `DECIMAL(19, 18)` | N/A |
-| `CHDPercentage_F` | Percentage of female mortalities by CHD within 100,000 people for individuals aged between 19-64 | `DECIMAL(19, 18)` | N/A |
-| `CHDPercentage_M` | Percentage of male mortalities by CHD within 100,000 people for individuals aged between 19-64 | `DECIMAL(19, 18)` | N/A |
-
 ## SQL Queries
 
 - Impact by Sex
