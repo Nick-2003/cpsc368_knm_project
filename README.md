@@ -78,12 +78,61 @@ The data is formatted such that each individual data value corresponds to a list
 - Impact by Sex
 
 ```sql
+CREATE TABLE USCDI_CHD AS
+SELECT 
+    total.LocationDesc AS LocationDesc,
+    CAST(female.DataValue / total.DataValue AS DECIMAL(19, 18)) AS Frac_F,
+    CAST(total.DataValue AS DECIMAL(24, 18)) AS CHD_Deaths,
+    CAST(female.DataValue AS DECIMAL(24, 18)) AS CHD_Deaths_F,
+    CAST(male.DataValue AS DECIMAL(24, 18)) AS CHD_Deaths_M,
+    CAST(total.DataValue / 1000 AS DECIMAL(19, 18)) AS CHDPercentage,
+    CAST(female.DataValue / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_F,
+    CAST(male.DataValue / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_M
+FROM 
+    (SELECT LocationDesc, DataValue
+     FROM USCDI
+     WHERE Topic = 'Cardiovascular Diseases'
+       AND Question = 'Death rate from coronary heart disease (CHD)'
+       AND DataValueUnit = 'per 100,000'
+       AND StratificationCategory1 = 'Age'
+       AND Stratification1 = '19-64'
+       AND Has2019 = 1) total
+JOIN
+    (SELECT LocationDesc, DataValue
+     FROM USCDI
+     WHERE Topic = 'Cardiovascular Diseases'
+       AND Question = 'Death rate from coronary heart disease (CHD)'
+       AND DataValueUnit = 'per 100,000'
+       AND StratificationCategory1 = 'Sex'
+       AND Stratification1 = 'Female'
+       AND Has2019 = 1) female
+ON total.LocationDesc = female.LocationDesc
+JOIN
+    (SELECT LocationDesc, DataValue
+     FROM USCDI
+     WHERE Topic = 'Cardiovascular Diseases'
+       AND Question = 'Death rate from coronary heart disease (CHD)'
+       AND DataValueUnit = 'per 100,000'
+       AND StratificationCategory1 = 'Sex'
+       AND Stratification1 = 'Male'
+       AND Has2019 = 1) male
+ON total.LocationDesc = male.LocationDesc
+
 SELECT
-    chd.*,
-    kff.All_Uninsured
-FROM USCDI_CHD chd
+    uc.LocationDesc,
+    uc.Frac_F,
+    uc.CHD_Deaths,
+    uc.CHD_Deaths_F,
+    uc.CHD_Deaths_M,
+    uc.CHDPercentage,
+    uc.CHDPercentage_F,
+    uc.CHDPercentage_M,
+    kff.All_Uninsured,
+    kff.Female_Uninsured,
+    kff.Male_Uninsured
+FROM USCDI_CHD uc
 LEFT JOIN KFF2019_new kff
-    ON chd.LocationDesc = kff.Location
+    ON uc.LocationDesc = kff.Location;
 ```
 
 - Impact by State
