@@ -44,6 +44,44 @@ This research paper explores how health insurance coverage impacts health outcom
 
 ## Database Table Details
 
+### KFF datasets (Adults Ages 19-64, Women Ages 19-64, Men Ages 19-64)
+
+- There are 3 KFF datasets: one for all adults aged 19-64 (`KFF2019_adult`), and two for males (`KFF2019_male`) and females (`KFF2019_female`) aged 19-64.
+
+| Column | Description | Data Type | Property |
+| ------- | ------- | ------- | ------- |
+| `Location`  | State within U.S. | `VARCHAR2(50)` | `PRIMARY KEY` |
+| `Employer` | Includes those covered by employer-sponsored coverage either through their own job or as a dependent in the same household. | `DECIMAL(19, 18)` | N/A |
+| `Non-Group` | Includes individuals and families that purchased or are covered as a dependent by non-group insurance. | `DECIMAL(19, 18)` | N/A |
+| `Medicaid` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
+| `Medicare` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
+| `Military` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
+| `Uninsured` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
+| `Total` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
+
+### USCDI_filter
+
+- The data is formatted such that each individual data value corresponds to a list of  practically all the `VARCHAR2` columns, along with `YearStart` and `YearEnd`, are primary keys.
+- The data provided is a version of the original dataset filtered to focus on the topics of 'Cardiovascular Disease' and 'Cancer'.
+
+| Column | Description | Data Type | Property |
+| ------- | ------- | ------- | ------- |
+| `YearStart`  | Start year of measurements | `NUMBER(4, 0)` | `PRIMARY KEY` |
+| `YearEnd` | End year of measurements | `NUMBER(4, 0)` | `PRIMARY KEY` |
+| `LocationDesc` | State within U.S. | `VARCHAR2(50)` | `PRIMARY KEY` |
+| `Topic` | Topic of interest | `VARCHAR2(30)` | `PRIMARY KEY` |
+| `Question`  | Question of interest, based on `Topic` | `VARCHAR2(100)` | `PRIMARY KEY` |
+| `DataValueUnit` | Unit of data value depending on `Topic` and `Question` | `VARCHAR2(20)` | `PRIMARY KEY` |
+| `DataValueType` | Type of data value (e.g. Crude value, age-adjusted) | `VARCHAR2(20)` | `PRIMARY KEY` |
+| `DataValue` | Data value, with specific interpretation dependent on its `DataValueType`, `DataValueUnit`, `Topic` and `Question` | `DECIMAL(24, 18)` | N/A |
+| `StratificationCategory1` | Category to stratify data; includes "Age", "Sex", "Race/Ethnicity" and "Overall" | `VARCHAR(10)` | `PRIMARY KEY` |
+| `Stratification1` | Specific group within `StratificationCategory1` | `VARCHAR(10)` | `PRIMARY KEY` |
+
+## Database View Details
+
+- Derived from raw data `KFF2019_adult`, `KFF2019_female`, `KFF2019_ale` and `USCDI_filter`.
+- Baselines to be used in each analysis.
+
 ### KFF2019_new
 
 | Column | Description | Data Type | Property |
@@ -53,9 +91,7 @@ This research paper explores how health insurance coverage impacts health outcom
 | `Female_Uninsured` | Proportion of uninsured female individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
 | `Male_Uninsured` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
 
-### USCDI
-
-The data is formatted such that each individual data value corresponds to a list of  practically all the `VARCHAR2` columns, along with `YearStart` and `YearEnd`, are primary keys.
+### USCDI_FINAL
 
 | Column | Description | Data Type | Property |
 | ------- | ------- | ------- | ------- |
