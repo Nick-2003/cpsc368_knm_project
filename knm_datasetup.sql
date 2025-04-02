@@ -1,4 +1,7 @@
-DROP TABLE KFF2019_adult;
+DROP TABLE KFF2019_adult CASCADE CONSTRAINTS;
+DROP TABLE KFF2019_female CASCADE CONSTRAINTS;
+DROP TABLE KFF2019_male CASCADE CONSTRAINTS;
+DROP TABLE USCDI_filter CASCADE CONSTRAINTS;
 
 CREATE TABLE KFF2019_adult(
     "Location" VARCHAR(50),
@@ -66,7 +69,6 @@ INSERT INTO KFF2019_adult ("Location", "Employer", "Non-Group", "Medicaid", "Med
 INSERT INTO KFF2019_adult ("Location", "Employer", "Non-Group", "Medicaid", "Medicare", "Military", "Uninsured", "Total") VALUES ('Wyoming', 0.618, 0.096, 0.077, 0.02, 0.022, 0.167, 1.0);
 INSERT INTO KFF2019_adult ("Location", "Employer", "Non-Group", "Medicaid", "Medicare", "Military", "Uninsured", "Total") VALUES ('Puerto Rico', 0.305, 0.102, 0.429, 0.042, 0.006, 0.117, 1.0);
 
-DROP TABLE KFF2019_female;
 
 CREATE TABLE KFF2019_female(
     "Location" VARCHAR(50),
@@ -134,7 +136,6 @@ INSERT INTO KFF2019_female ("Location", "Employer", "Non-Group", "Medicaid", "Me
 INSERT INTO KFF2019_female ("Location", "Employer", "Non-Group", "Medicaid", "Medicare", "Military", "Uninsured", "Total") VALUES ('Wyoming', 0.604, 0.098, 0.097, 0.014, 0.019, 0.167, 1.0);
 INSERT INTO KFF2019_female ("Location", "Employer", "Non-Group", "Medicaid", "Medicare", "Military", "Uninsured", "Total") VALUES ('Puerto Rico', 0.306, 0.107, 0.451, 0.037, 0.005, 0.094, 1.0);
 
-DROP TABLE KFF2019_male;
 
 CREATE TABLE KFF2019_male(
     "Location" VARCHAR(50),
@@ -202,7 +203,6 @@ INSERT INTO KFF2019_male ("Location", "Employer", "Non-Group", "Medicaid", "Medi
 INSERT INTO KFF2019_male ("Location", "Employer", "Non-Group", "Medicaid", "Medicare", "Military", "Uninsured", "Total") VALUES ('Wyoming', 0.631, 0.094, 0.057, 0.026, 0.025, 0.167, 1.0);
 INSERT INTO KFF2019_male ("Location", "Employer", "Non-Group", "Medicaid", "Medicare", "Military", "Uninsured", "Total") VALUES ('Puerto Rico', 0.304, 0.096, 0.404, 0.047, 0.008, 0.142, 1.0);
 
-DROP TABLE USCDI_filter;
 
 CREATE TABLE USCDI_filter(
     "YearStart" NUMBER(4,0),
@@ -8811,3 +8811,4 @@ INSERT INTO USCDI_filter ("YearStart", "YearEnd", "LocationDesc", "Topic", "Ques
 INSERT INTO USCDI_filter ("YearStart", "YearEnd", "LocationDesc", "Topic", "Question", "DataValueUnit", "DataValueType", "DataValue", "StratificationCategory1", "Stratification1") VALUES (2021, 2021, 'Wyoming', 'Cardiovascular Disease', 'Cerebrovascular disease (stroke) mortality among all people, underlying cause', 'cases per 100,000', 'Crude Rate', 44.6, 'Sex', 'Female');
 INSERT INTO USCDI_filter ("YearStart", "YearEnd", "LocationDesc", "Topic", "Question", "DataValueUnit", "DataValueType", "DataValue", "StratificationCategory1", "Stratification1") VALUES (2021, 2021, 'Wyoming', 'Cardiovascular Disease', 'Diseases of the heart mortality among all people, underlying cause', 'cases per 100,000', 'Age-adjusted Rate', 159.4, 'Overall', 'Overall');
 
+COMMIT;
