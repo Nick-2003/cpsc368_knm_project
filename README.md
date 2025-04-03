@@ -177,51 +177,48 @@ FROM (
 CREATE VIEW USCDI_CHD AS
     WITH CHD_Data AS (
         SELECT 
-            total.LocationDesc AS LocationDesc,
-            CAST(female.AvgDataValue / (female.AvgDataValue + male.AvgDataValue) AS DECIMAL(19, 18)) AS Frac_F,
-            CAST(total.AvgDataValue AS DECIMAL(24, 18)) AS CHD_Deaths
+            total."LOCATIONDESC" AS LOCATIONDESC,
+            CAST(female.DataValue / (female.DataValue + male.DataValue) AS DECIMAL(19, 18)) AS Frac_F,
+            CAST(total.DataValue AS DECIMAL(24, 18)) AS CHD_DEATHS
         FROM 
-            (SELECT LocationDesc, AvgDataValue
+            (SELECT "LOCATIONDESC", "AVGDATAVALUE" as DataValue
             FROM USCDI
-            WHERE Topic = 'Cardiovascular Diseases'
-            AND Question = 'Death rate from coronary heart disease (CHD)'
-            AND DataValueUnit = 'cases per 100,000'
-            AND StratificationCategory1 = 'Age'
-            AND Stratification1 IN ('Age 0-44', 'Age 45-64')
-            AND DataValueType = 'Crude Rate'
-            AND Has2019 = 1) total
+            WHERE "TOPIC" = 'Cardiovascular Disease'
+            AND "QUESTION" = 'Coronary heart disease mortality among all people, underlying cause'
+            AND "DATAVALUEUNIT" = 'cases per 100,000'
+            AND "STRATIFICATIONCATEGORY1" = 'Age'
+            AND "STRATIFICATION1" IN ('Age 0-44', 'Age 45-64')
+            AND "DATAVALUETYPE" = 'Crude Rate') total
         JOIN
-            (SELECT LocationDesc, AvgDataValue
+            (SELECT "LOCATIONDESC", "AVGDATAVALUE" as DataValue
             FROM USCDI
-            WHERE Topic = 'Cardiovascular Diseases'
-            AND Question = 'Death rate from coronary heart disease (CHD)'
-            AND DataValueUnit = 'cases per 100,000'
-            AND StratificationCategory1 = 'Sex'
-            AND Stratification1 = 'Female'
-            AND DataValueType = 'Age-adjusted Rate'
-            AND Has2019 = 1) female
-        ON total.LocationDesc = female.LocationDesc
+            WHERE "TOPIC" = 'Cardiovascular Disease'
+            AND "QUESTION" = 'Coronary heart disease mortality among all people, underlying cause'
+            AND "DATAVALUEUNIT" = 'cases per 100,000'
+            AND "STRATIFICATIONCATEGORY1" = 'Sex'
+            AND "STRATIFICATION1" = 'Female'
+            AND "DATAVALUETYPE" = 'Age-adjusted Rate') female
+        ON total."LOCATIONDESC" = female."LOCATIONDESC"
         JOIN
-            (SELECT LocationDesc, AvgDataValue
+            (SELECT "LOCATIONDESC", "AVGDATAVALUE" as DataValue
             FROM USCDI
-            WHERE Topic = 'Cardiovascular Diseases'
-            AND Question = 'Death rate from coronary heart disease (CHD)'
-            AND DataValueUnit = 'cases per 100,000'
-            AND StratificationCategory1 = 'Sex'
-            AND Stratification1 = 'Male'
-            AND DataValueType = 'Age-adjusted Rate'
-            AND Has2019 = 1) male
-        ON total.LocationDesc = male.LocationDesc
+            WHERE "TOPIC" = 'Cardiovascular Disease'
+            AND "QUESTION" = 'Coronary heart disease mortality among all people, underlying cause'
+            AND "DATAVALUEUNIT" = 'cases per 100,000'
+            AND "STRATIFICATIONCATEGORY1" = 'Sex'
+            AND "STRATIFICATION1" = 'Male'
+            AND "DATAVALUETYPE" = 'Age-adjusted Rate') male
+        ON total."LOCATIONDESC" = male."LOCATIONDESC"
     )
     SELECT 
-        CHD_Data.LocationDesc,
-        CHD_Data.Frac_F,
-        CHD_Data.CHD_Deaths,
-        CAST(CHD_Data.CHD_Deaths * CHD_Data.Frac_F AS DECIMAL(24, 18)) AS CHD_Deaths_F,
-        CAST(CHD_Data.CHD_Deaths * (1 - CHD_Data.Frac_F) AS DECIMAL(24, 18)) AS CHD_Deaths_M,
-        CAST(CHD_Data.CHD_Deaths / 1000 AS DECIMAL(19, 18)) AS CHDPercentage,
-        CAST((CHD_Data.CHD_Deaths * CHD_Data.Frac_F) / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_F,
-        CAST((CHD_Data.CHD_Deaths * (1 - CHD_Data.Frac_F)) / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_M
+        CHD_Data.LOCATIONDESC,
+        CHD_Data.FRAC_F,
+        CHD_Data.CHD_DEATHS,
+        CAST(CHD_Data.CHD_DEATHS * CHD_Data.FRAC_F AS DECIMAL(24, 18)) AS CHD_DEATHS_F,
+        CAST(CHD_Data.CHD_DEATHS * (1 - CHD_Data.FRAC_F) AS DECIMAL(24, 18)) AS CHD_DEATHS_M,
+        CAST(CHD_Data.CHD_DEATHS / 1000 AS DECIMAL(19, 18)) AS CHDPercentage,
+        CAST((CHD_Data.CHD_DEATHS * CHD_Data.FRAC_F) / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_F,
+        CAST((CHD_Data.CHD_DEATHS * (1 - CHD_Data.FRAC_F)) / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_M
     FROM CHD_Data;
 
 SELECT
