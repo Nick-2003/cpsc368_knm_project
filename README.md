@@ -181,33 +181,39 @@ CREATE VIEW USCDI_CHD AS
             CAST(female.DataValue / (female.DataValue + male.DataValue) AS DECIMAL(19, 18)) AS Frac_F,
             CAST(total.DataValue AS DECIMAL(24, 18)) AS CHD_DEATHS
         FROM 
-            (SELECT "LOCATIONDESC", "AVGDATAVALUE" as DataValue
+            (SELECT "LOCATIONDESC", SUM("AVGDATAVALUE") as DataValue
             FROM USCDI
             WHERE "TOPIC" = 'Cardiovascular Disease'
             AND "QUESTION" = 'Coronary heart disease mortality among all people, underlying cause'
             AND "DATAVALUEUNIT" = 'cases per 100,000'
             AND "STRATIFICATIONCATEGORY1" = 'Age'
             AND "STRATIFICATION1" IN ('Age 0-44', 'Age 45-64')
-            AND "DATAVALUETYPE" = 'Crude Rate') total
+            AND "DATAVALUETYPE" = 'Crude Rate'
+            AND "HAS2019" = 1
+            GROUP BY "LOCATIONDESC") total
         JOIN
-            (SELECT "LOCATIONDESC", "AVGDATAVALUE" as DataValue
+            (SELECT "LOCATIONDESC", SUM("AVGDATAVALUE") as DataValue
             FROM USCDI
             WHERE "TOPIC" = 'Cardiovascular Disease'
             AND "QUESTION" = 'Coronary heart disease mortality among all people, underlying cause'
             AND "DATAVALUEUNIT" = 'cases per 100,000'
             AND "STRATIFICATIONCATEGORY1" = 'Sex'
             AND "STRATIFICATION1" = 'Female'
-            AND "DATAVALUETYPE" = 'Age-adjusted Rate') female
+            AND "DATAVALUETYPE" = 'Age-adjusted Rate'
+            AND "HAS2019" = 1
+            GROUP BY "LOCATIONDESC") female
         ON total."LOCATIONDESC" = female."LOCATIONDESC"
         JOIN
-            (SELECT "LOCATIONDESC", "AVGDATAVALUE" as DataValue
+            (SELECT "LOCATIONDESC", SUM("AVGDATAVALUE") as DataValue
             FROM USCDI
             WHERE "TOPIC" = 'Cardiovascular Disease'
             AND "QUESTION" = 'Coronary heart disease mortality among all people, underlying cause'
             AND "DATAVALUEUNIT" = 'cases per 100,000'
             AND "STRATIFICATIONCATEGORY1" = 'Sex'
             AND "STRATIFICATION1" = 'Male'
-            AND "DATAVALUETYPE" = 'Age-adjusted Rate') male
+            AND "DATAVALUETYPE" = 'Age-adjusted Rate'
+            AND "HAS2019" = 1
+            GROUP BY "LOCATIONDESC") male
         ON total."LOCATIONDESC" = male."LOCATIONDESC"
     )
     SELECT 
@@ -216,10 +222,10 @@ CREATE VIEW USCDI_CHD AS
         CHD_Data.CHD_DEATHS,
         CAST(CHD_Data.CHD_DEATHS * CHD_Data.FRAC_F AS DECIMAL(24, 18)) AS CHD_DEATHS_F,
         CAST(CHD_Data.CHD_DEATHS * (1 - CHD_Data.FRAC_F) AS DECIMAL(24, 18)) AS CHD_DEATHS_M,
-        CAST(CHD_Data.CHD_DEATHS / 1000 AS DECIMAL(19, 18)) AS CHDPercentage,
-        CAST((CHD_Data.CHD_DEATHS * CHD_Data.FRAC_F) / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_F,
-        CAST((CHD_Data.CHD_DEATHS * (1 - CHD_Data.FRAC_F)) / 1000 AS DECIMAL(19, 18)) AS CHDPercentage_M
-    FROM CHD_Data;
+        CAST(CHD_Data.CHD_DEATHS / 100000 AS DECIMAL(19, 18)) AS CHDPROP,
+        CAST((CHD_Data.CHD_DEATHS * CHD_Data.FRAC_F) / 100000 AS DECIMAL(19, 18)) AS CHDPROP_F,
+        CAST((CHD_Data.CHD_DEATHS * (1 - CHD_Data.FRAC_F)) / 100000 AS DECIMAL(19, 18)) AS CHDPROP_M
+    FROM CHD_Data
 
 SELECT
     uc.LocationDesc,
