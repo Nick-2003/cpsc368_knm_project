@@ -16,15 +16,17 @@ This research paper explores how health insurance coverage impacts health outcom
 | kff_health_insurance_2019_adult.csv | CSV table | "Health Insurance Coverage of Adults Ages 19-64" dataset obtained from the KFF. |
 | kff_health_insurance_2019_female.csv | CSV table | "Health Insurance Coverage of Women Ages 19-64" dataset obtained from the KFF. |
 | kff_health_insurance_2019_male.csv | CSV table | "Health Insurance Coverage of Men Ages 19-64" dataset obtained from the KFF. |
-| KFF2019_new.csv | CSV table | Combination of KFF datasets showing uninsurance rates for overall and for each sex; cleaned dataset used for database table. |
-| USCDI.csv | CSV table | Filtered version of "U.S._Chronic_Disease_Indicators.csv" dataset; cleaned dataset used for database table. |
-| USCDI_CHD.csv | CSV table | Aggregated version of "USCDI.csv" dataset, estimating the proportions of men and women aged between 19-64 that died by coronary heart disease; cleaned dataset used for database table. |
+| KFF2019_adult.csv | CSV table | Cleaned version of "kff_health_insurance_2019_adult.csv" dataset with only table values. |
+| KFF2019_female.csv | CSV table | Cleaned version of "kff_health_insurance_2019_female.csv" dataset with only table values. |
+| KFF2019_male.csv | CSV table | Cleaned version of "kff_health_insurance_2019_male.csv" dataset with only table values. |
+| USCDI_filter.csv | CSV table | Filtered version of "U.S._Chronic_Disease_Indicators.csv" dataset; cleaned dataset used for database table. |
 | cpsc_368_project_knm.ipynb | Jupyter Notebook | Notebook to create the cleaned datasets using the initial datasets from the folders "final_datasets_V1/CDC" and "final_datasets_V1/KFF". |
 | cpsc_368_project_knm_csv_to_sql.ipynb | Jupyter Notebook | Notebook to create the SQL file from the cleaned datasets. |
+| cpsc_368_project_knm_sql_to_view.ipynb | Jupyter Notebook | Notebook to create views used in the analyses from the SQL tables provided in "knm_datasetup.sql". |
 | cpsc_368_project_knm_sex.ipynb | Jupyter Notebook | Notebook to complete the analysis for the project question "Impact of Health Insurance on Health Outcomes among U.S. Adults by Sex". |
 | cpsc_368_project_knm_state.ipynb  | Jupyter Notebook | Notebook to complete the analysis for the project question "Impact of Health Insurance on Health Outcomes among U.S. Adults by State". |
 | cpsc_368_project_knm_disease.ipynb | Jupyter Notebook | Notebook to complete the analysis for the project question "Impact of Health Insurance on Health Outcomes among U.S. Adults by Disease". |
-| knm_datasetup.sql | SQL file | Contains the SQL script to drop and create database tables, and insert their corresponding values. |
+| knm_datasetup.sql | SQL file | Contains the SQL script to drop and create database tables, and insert values into them. |
 
 ## Code Process
 
@@ -41,6 +43,7 @@ This research paper explores how health insurance coverage impacts health outcom
 - `seaborn`
 - `sklearn`
 - `csv`
+- `oracledb`
 
 ## Database Table Details
 
@@ -91,7 +94,7 @@ This research paper explores how health insurance coverage impacts health outcom
 | `Female_Uninsured` | Proportion of uninsured female individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
 | `Male_Uninsured` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
 
-### USCDI_FINAL
+### USCDI
 
 | Column | Description | Data Type | Property |
 | ------- | ------- | ------- | ------- |
@@ -111,10 +114,67 @@ This research paper explores how health insurance coverage impacts health outcom
 
 ## SQL Queries
 
+- `KFF2019_NEW` View
+
+```sql
+CREATE VIEW KFF2019_NEW AS 
+SELECT kffa1."Location" AS Location, kffa1."Uninsured" AS All_Uninsured, kfff1."Uninsured" AS Female_Uninsured, kffm1."Uninsured" AS Male_Uninsured
+FROM KFF2019_adult kffa1
+INNER JOIN KFF2019_female kfff1 ON kffa1."Location" = kfff1."Location"
+INNER JOIN KFF2019_male kffm1 ON kffa1."Location" = kffm1."Location"
+WHERE kffa1."Location" != 'United States';
+```
+
+- `KFF2019_NEW` View
+
+```sql
+CREATE VIEW USCDI AS 
+SELECT USCDI_MID."YearStart" AS YearStart, 
+    USCDI_MID."YearEnd" AS YearEnd, 
+    USCDI_MID."LocationDesc" AS LocationDesc, 
+    USCDI_MID."Topic" AS Topic, 
+    USCDI_MID."Question" AS Question, 
+    USCDI_MID."DataValueUnit" AS DataValueUnit, 
+    USCDI_MID."DataValueType" AS DataValueType, 
+    USCDI_MID."DataValue" AS DataValue, 
+    USCDI_MID."StratificationCategory1" AS StratificationCategory1, 
+    USCDI_MID."Stratification1" AS Stratification1, 
+    USCDI_MID."Has2019" AS Has2019, 
+    USCDI_MID."Range" AS Range, 
+    (USCDI_MID."DataValue" / USCDI_MID."Range") AS AvgDataValue
+FROM (
+    SELECT cdif1."YearStart", cdif1."YearEnd", cdif1."LocationDesc", cdif1."Topic", cdif1."Question", 
+            cdif1."DataValueUnit", cdif1."DataValueType", cdif1."DataValue", 
+            cdif1."StratificationCategory1", cdif1."Stratification1", 
+            CAST(
+                CASE 
+                    WHEN ((cdif1."YearStart" <= 2019) AND (cdif1."YearEnd" >= 2019)) THEN 1
+                    ELSE 0
+                END AS NUMBER(1, 0)
+            ) AS "Has2019", 
+            CAST(
+                (cdif1."YearEnd" - cdif1."YearStart" + 1) AS NUMBER(2, 0)
+            ) AS "Range"
+    FROM USCDI_filter cdif1
+    WHERE cdif1."LocationDesc" != 'United States'
+) USCDI_MID
+```
+
+- `KFF2019_NEW` View
+
+```sql
+CREATE VIEW KFF2019_NEW AS 
+SELECT kffa1."Location" AS Location, kffa1."Uninsured" AS All_Uninsured, kfff1."Uninsured" AS Female_Uninsured, kffm1."Uninsured" AS Male_Uninsured
+FROM KFF2019_adult kffa1
+INNER JOIN KFF2019_female kfff1 ON kffa1."Location" = kfff1."Location"
+INNER JOIN KFF2019_male kffm1 ON kffa1."Location" = kffm1."Location"
+WHERE kffa1."Location" != 'United States'
+```
+
 - Impact by Sex
 
 ```sql
-CREATE TABLE USCDI_CHD AS
+CREATE VIEW USCDI_CHD AS
     WITH CHD_Data AS (
         SELECT 
             total.LocationDesc AS LocationDesc,
