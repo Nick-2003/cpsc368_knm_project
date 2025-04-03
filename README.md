@@ -136,7 +136,7 @@ INNER JOIN KFF2019_male kffm1 ON kffa1."Location" = kffm1."Location"
 WHERE kffa1."Location" != 'United States';
 ```
 
-- `KFF2019_NEW` View
+- `USCDI` View
 
 ```sql
 CREATE VIEW USCDI AS 
