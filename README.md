@@ -37,7 +37,7 @@ This research paper explores how health insurance coverage impacts health outcom
   - SSH connect to UBC department servers: `ssh <CWL>@remote.students.cs.ubc.ca`
   - Move to location of "knm_datasetup.sql": `cd <PATH_TO_SQL>`
   - Enter MySQL within SSH: `rlwrap sqlplus ora_<CWL>@stu`
-    - Password: `<studentnum>`
+    - Password: `a<studentnum>`
   - In MySQL, run `start knm_datasetup.sql;` to run all SQL imports.
 - Run the "cpsc_368_project_knm_sql_to_view.ipynb" notebook to create the views for the analyses.
   - Open terminal in Jupyter Lab.
