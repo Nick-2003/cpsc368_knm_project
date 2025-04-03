@@ -32,6 +32,17 @@ This research paper explores how health insurance coverage impacts health outcom
 
 - Run the "cpsc_368_project_knm.ipynb" notebook to create the cleaned datasets.
 - Run the "cpsc_368_project_knm_csv_to_sql.ipynb" notebook to create the SQL script file.
+- Upload the SQL script to MySQL:
+  - Import "knm_datasetup.sql" to SSH server: `scp "<PATH_TO_START>/knm_datasetup.sql" <CWL>@remote.students.cs.ubc.ca:/<PATH_TO_END>/`
+  - SSH connect to UBC department servers: `ssh <CWL>@remote.students.cs.ubc.ca`
+  - Move to location of "knm_datasetup.sql": `cd <PATH_TO_SQL>`
+  - Enter MySQL within SSH: `rlwrap sqlplus ora_<CWL>@stu`
+    - Password: `<studentnum>`
+  - In MySQL, run `start knm_datasetup.sql;` to run all SQL imports.
+- Run the "cpsc_368_project_knm_sql_to_view.ipynb" notebook to create the views for the analyses.
+  - Open terminal in Jupyter Lab.
+  - Run `ssh -l <CWL> -L 127.0.0.1:1522:dbhost.students.cs.ubc.ca:1522 remote.students.cs.ubc.ca` to access SSH server.
+  - Run the rest of the notebook as usual.
 - Run the Jupyter notebooks corresponding to each project question to obtain the results for each analysis.
 
 ## Imported Libraries
