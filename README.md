@@ -171,17 +171,6 @@ FROM (
 ) USCDI_MID
 ```
 
-- `KFF2019_NEW` View
-
-```sql
-CREATE VIEW KFF2019_NEW AS 
-SELECT kffa1."Location" AS Location, kffa1."Uninsured" AS All_Uninsured, kfff1."Uninsured" AS Female_Uninsured, kffm1."Uninsured" AS Male_Uninsured
-FROM KFF2019_adult kffa1
-INNER JOIN KFF2019_female kfff1 ON kffa1."Location" = kfff1."Location"
-INNER JOIN KFF2019_male kffm1 ON kffa1."Location" = kffm1."Location"
-WHERE kffa1."Location" != 'United States'
-```
-
 - Impact by Sex
 
 ```sql
