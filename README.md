@@ -44,6 +44,9 @@ This research paper explores how health insurance coverage impacts health outcom
   - Run `ssh -l <CWL> -L 127.0.0.1:1522:dbhost.students.cs.ubc.ca:1522 remote.students.cs.ubc.ca` to access SSH server.
   - Run the rest of the notebook as usual.
 - Run the Jupyter notebooks corresponding to each project question to obtain the results for each analysis.
+  - "cpsc_368_project_knm_sex.ipynb"
+  - "cpsc_368_project_knm_state.ipynb"
+  - "cpsc_368_project_knm_disease.ipynb"
 
 ## Imported Libraries
 
@@ -67,11 +70,11 @@ This research paper explores how health insurance coverage impacts health outcom
 | `Location`  | State within U.S. | `VARCHAR2(50)` | `PRIMARY KEY` |
 | `Employer` | Includes those covered by employer-sponsored coverage either through their own job or as a dependent in the same household. | `DECIMAL(19, 18)` | N/A |
 | `Non-Group` | Includes individuals and families that purchased or are covered as a dependent by non-group insurance. | `DECIMAL(19, 18)` | N/A |
-| `Medicaid` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
-| `Medicare` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
-| `Military` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
-| `Uninsured` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
-| `Total` | Proportion of uninsured male individuals aged between 19 and 64 | `DECIMAL(19, 18)` | N/A |
+| `Medicaid` | Includes those covered by Medicaid, Medical Assistance, Children's Health Insurance Plan (CHIP) or any kind of government-assistance plan for those with low incomes or a disability, as well as those who have both Medicaid and another type of coverage, such as dual eligibles who are also covered by Medicare. | `DECIMAL(19, 18)` | N/A |
+| `Medicare` | Includes those covered by Medicare, except dual eligibles who are covered by both Medicaid and Medicare and those covered by Medicare and employer-sponsored insurance who work full-time. | `DECIMAL(19, 18)` | N/A |
+| `Military` | Includes those covered under the military or Veterans Administration. | `DECIMAL(19, 18)` | N/A |
+| `Uninsured` | Includes those without health insurance and those who have coverage under the Indian Health Service only. | `DECIMAL(19, 18)` | N/A |
+| `Total` | Maximum proportion. | `DECIMAL(19, 18)` | N/A |
 
 ### USCDI_filter
 
@@ -168,7 +171,7 @@ FROM (
             ) AS "Range"
     FROM USCDI_filter cdif1
     WHERE cdif1."LocationDesc" != 'United States'
-) USCDI_MID
+) USCDI_MID;
 ```
 
 - Impact by Sex
@@ -225,71 +228,69 @@ CREATE VIEW USCDI_CHD AS
         CAST(CHD_Data.CHD_DEATHS / 100000 AS DECIMAL(19, 18)) AS CHDPROP,
         CAST((CHD_Data.CHD_DEATHS * CHD_Data.FRAC_F) / 100000 AS DECIMAL(19, 18)) AS CHDPROP_F,
         CAST((CHD_Data.CHD_DEATHS * (1 - CHD_Data.FRAC_F)) / 100000 AS DECIMAL(19, 18)) AS CHDPROP_M
-    FROM CHD_Data
+    FROM CHD_Data;
 
 SELECT
-    uc.LocationDesc,
-    uc.Frac_F,
-    uc.CHD_Deaths,
-    uc.CHD_Deaths_F,
-    uc.CHD_Deaths_M,
-    uc.CHDPercentage,
-    uc.CHDPercentage_F,
-    uc.CHDPercentage_M,
+    uc.LOCATIONDESC,
+    uc.FRAC_F,
+    uc.CHD_DEATHS,
+    uc.CHD_DEATHS_F,
+    uc.CHD_DEATHS_M,
+    uc.CHDPROP,
+    uc.CHDPROP_F,
+    uc.CHDPROP_M,
     kff.All_Uninsured,
     kff.Female_Uninsured,
     kff.Male_Uninsured
 FROM USCDI_CHD uc
 LEFT JOIN KFF2019_new kff
-    ON uc.LocationDesc = kff.Location;
+    ON uc.LOCATIONDESC = kff.LOCATION;
 ```
 
 - Impact by State
 
 ```sql
 SELECT 
-    us.LocationDesc,
-    us.DataValueUnit AS DeathRateUnit,
-    us.DataValueType AS DeathRateType,
-    us.AvgDataValue AS AvgDeathRate,
-    us.Stratification1,
+    us."LocationDesc" AS LOCATIONDESC,
+    us."DataValueUnit" AS DeathRateUnit,
+    us."DataValueType" AS DeathRateType,
+    us."DataValue" AS AvgDeathRate,
+    us."Stratification1" AS STRATIFICATION1,
     kff.All_Uninsured
-FROM USCDI us
+FROM USCDI_filter us
 LEFT JOIN KFF2019_new kff
-    ON us.LocationDesc = kff.Location
-WHERE us.Topic = 'Cardiovascular Disease'
-    AND us.Question = 'Coronary heart disease mortality among all people, underlying cause'
-    AND us.DataValueUnit = 'cases per 100,000'
-    AND us.StratificationCategory1 = 'Age'
-    AND us.Stratification1 IN ('Age 0-44', 'Age 45-64')
-    AND us.DataValueType = 'Crude Rate'
-    AND us.Has2019 = 1
-    AND us.LocationDesc != 'United States';
+    ON us."LocationDesc" = kff.Location
+WHERE us."Topic" = 'Cardiovascular Disease'
+    AND us."Question" = 'Coronary heart disease mortality among all people, underlying cause'
+    AND us."DataValueUnit" = 'cases per 100,000'
+    AND us."StratificationCategory1" = 'Age'
+    AND us."Stratification1" IN ('Age 0-44', 'Age 45-64', 'Age >=65')
+    AND us."DataValueType" = 'Crude Rate'
+    AND us."LocationDesc" != 'United States';
 ```
 
 - Impact by Disease
 
 ```sql
 SELECT 
-    us.LocationDesc AS State,
-    CASE 
-        WHEN us.DataValueUnit = 'cases per 100,000' THEN 'per 100,000'
-        ELSE us.DataValueUnit 
-    END AS DeathRateUnit,
-    us.DataValueType AS DeathRateType,
-    us.AvgDataValue AS AvgDeathRate,
-    us.Stratification1,
-    us.Question,
-    us.DataValue,
-    us.Topic AS Disease,
-    kff.All_Uninsured
-FROM USCDI us
+    us."LocationDesc" AS State,
+CASE 
+    WHEN us."DataValueUnit" = 'cases per 100,000' THEN 'per 100,000'
+    ELSE us."DataValueUnit" 
+END AS DeathRateUnit,
+us."DataValueType" AS DeathRateType,
+us."DataValue" AS AvgDeathRate,
+us."Stratification1",
+us."Question" AS QUESTION,
+us."DataValue",
+us."Topic" AS Disease,
+kff.All_Uninsured
+FROM USCDI_filter us
 LEFT JOIN KFF2019_new kff
-    ON us.LocationDesc = kff.Location
-WHERE us.LocationDesc IN ('Texas', 'Massachusetts')
-    AND us.Topic IN ('Cardiovascular Disease', 'Cancer')
-    AND us.DataValueUnit IN ('cases per 100,000', 'per 100,000')
-    AND us.DataValueType = 'Crude Rate'
-    AND us.Stratification1 = 'Overall'
-    AND us.Has2019 = 1
+    ON us."LocationDesc" = kff.Location
+WHERE us."LocationDesc" IN ('Texas', 'Massachusetts')
+    AND us."Topic" IN ('Cardiovascular Disease', 'Cancer')
+    AND us."DataValueUnit" IN ('cases per 100,000', 'per 100,000')
+    AND us."DataValueType" = 'Crude Rate'
+    AND us."Stratification1" = 'Overall';
 ```
